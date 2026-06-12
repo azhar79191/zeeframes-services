@@ -65,7 +65,7 @@ const ServicesSection = () => {
                     <div className="space-y-6 md:space-y-12">
                         <div className="flex flex-col md:flex-row items-center gap-3 md:justify-between">
                             <div className="space-y-2 md:space-y-4">
-                                <p className="text-[#F3FE00] text-sm">Who We Help</p>
+                                <p className="text-[#F3FE00] text-sm">How We Help</p>
                                 <h2 className="text-2xl md:text-4xl font-semibold leading-8 md:leading-11 text-[#FFF] tracking-[-0.72px] w-full md:w-[433px]">UI/UX Design Services We Offer</h2>
                             </div>
                             <p className="text-base text-[#D4D4D8] w-full md:w-[447px] ">A complete design practice covering every stage of the product lifecycle:</p>
