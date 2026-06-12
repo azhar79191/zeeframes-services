@@ -11,17 +11,22 @@ import ServicesSection from "./services";
 import StackSection from "./stacksection";
 import UsecasesSection from "./usecases";
 import WhyZeeframe  from "./zeeframsection";
+import StickyNavigation from "@/src/components/StickyNavigation";
 
 const HomeView=()=>{
     return (<>
        <HeroSection/>
-       <HelpView/>
-       <ServicesSection/>
-       <ProcessSection/>
-       <StackSection/>
-       <UsecasesSection/>
-       <DeliverablesSection/>
-       <WhyZeeframe/>
+       {/* Sticky Navigation Container - Tabs remain sticky until end of WhyZeeframe section */}
+       <div className="relative">
+           <StickyNavigation />
+           <HelpView/>
+           <ServicesSection/>
+           <ProcessSection/>
+           <StackSection/>
+           <UsecasesSection/>
+           <DeliverablesSection/>
+           <WhyZeeframe/>
+       </div>
        <FaqSection/>
        <DesignSection/>
        <InsightsSection/>

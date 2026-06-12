@@ -58,7 +58,6 @@ const Header = () => {
                             alt="logo"
                             width={129}
                             height={22}
-                            style={{ width: "auto", height: "auto" }}
                             className="w-[115px] md:w-[129px]"
                         />
                     </Link>

@@ -20,6 +20,11 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 152px; /* Header height + tabs height */
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

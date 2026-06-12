@@ -42,7 +42,7 @@ const processCards = [
 
 const ProcessSection = () => {
     return (
-        <section className="bg-[#FAF9F4]">
+        <section className="bg-[#FAF9F4]" id="our-process">
             <div className="container">
                 <div className="py-6 md:py-15">
                     <div className="space-y-6 md:space-y-12">
@@ -70,7 +70,7 @@ const ProcessSection = () => {
                                         />
                                         <div className=" flex flex-col gap-6 md:gap-8 p-5">
                                             <div className="flex flex-col gap-2.5">
-                                                <h3 className="text-[#FFF] text-xl font-semibold leading-7">
+                                                <h3 className="text-[#FFF] text-xl font-semibold leading-5.25">
                                                     Want this process for your product?
                                                 </h3>
                                                 <p className="text-[#E4E4E7] text-sm">
@@ -108,7 +108,7 @@ const ProcessSection = () => {
                                                         <span className="flex-shrink-0 mt-0.5">
                                                             <StarIcon />
                                                         </span>
-                                                        <span className="text-[#52525B] text-sm leading-relaxed">{point}</span>
+                                                        <span className="text-[#52525B] text-sm leading-5">{point}</span>
                                                     </li>
                                                 ))}
                                             </ul>

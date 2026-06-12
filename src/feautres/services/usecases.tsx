@@ -60,7 +60,7 @@ const useCases = [
 
 const UsecasesSection = () => {
     return (
-        <section className="bg-[#FAF9F4]">
+        <section className="bg-[#FAF9F4]" id="use-cases">
             <div className="container">
                 <div className="py-6 md:py-15">
                     <div className="space-y-6 md:space-y-12">

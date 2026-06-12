@@ -91,7 +91,7 @@ const FaqSection = () => {
                                     </button>
                                     {openId === faq.id && faq.answer && (
                                         <div className="px-6 pb-6 pt-2">
-                                            <p className="text-[#3F3F46] text-sm leading-relaxed">
+                                            <p className="text-[#3F3F46] text-sm leading-normal">
                                                 {faq.answer}
                                             </p>
                                         </div>

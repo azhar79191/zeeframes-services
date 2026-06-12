@@ -59,7 +59,7 @@ const serviceCards = [
 ];
 const ServicesSection = () => {
     return (
-        <section className="bg-[#0B0B0B]">
+        <section className="bg-[#0B0B0B]" id="how-we-help">
             <div className="container">
                 <div className="py-6 md:py-15">
                     <div className="space-y-6 md:space-y-12">
@@ -92,7 +92,7 @@ const ServicesSection = () => {
                                             <Button
                                                 href="/consultation"
                                                 text="Get a Free Consultation"
-                                                className="bg-[#0B0B0B] group-hover:bg-[#F3FE00] border-[#000] w-fit"
+                                                className="bg-[#0B0B0B] group-hover:bg-[#F3FE00] group-hover:border hover:!border-[#000] w-fit"
                                                 textClassName="text-sm font-medium text-[#FFF] group-hover:text-[#0B0B0B]"
                                                 iconClassName="text-[#FFF] group-hover:text-[#0B0B0B]"
                                             />

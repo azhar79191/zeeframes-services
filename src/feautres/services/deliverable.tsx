@@ -161,7 +161,7 @@ const DeliverablesSection = () => {
     const currentData = deliverablesByTab[activeTab as keyof typeof deliverablesByTab];
 
     return (
-        <section className="bg-[#0B0B0B]">
+        <section className="bg-[#0B0B0B]" id="deliverables">
             <div className="container">
                 <div className="py-6 md:py-15">
                     <div className="space-y-6 md:space-y-12">
@@ -239,7 +239,7 @@ const DeliverablesSection = () => {
                                         <h3 className="text-[#F4F4EE] text-lg md:text-5xl font-semibold md:font-bold leading-7 md:leading-15 -tracking-[0.96px]">
                                             {currentData.mainTitle}
                                         </h3>
-                                        <p className="text-[#A1A1AA] mb-10 md:mb-0 text-sm md:text-base">
+                                        <p className="text-[#A1A1AA] mb-10 md:mb-0 text-sm w-full md:w-[469px] md:text-base">
                                             {currentData.mainDescription}
                                         </p>
                                     </div>

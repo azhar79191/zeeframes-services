@@ -44,7 +44,7 @@ const reasons = [
 
 const WhyZeeframe = () => {
     return (
-        <section className="bg-[#0B0B0B]">
+        <section className="bg-[#0B0B0B]" id="why-zeeframes">
             <div className="container">
                 <div className="py-6 md:py-16">
                     <div className="flex flex-col gap-6 md:gap-12 py-6 md:py-15 px-4 md:px-8 rounded-[14px]" style={{ background: 'linear-gradient(180deg, #151515 0%, #0B0B0B 100%)' }}>
@@ -83,7 +83,7 @@ const WhyZeeframe = () => {
                                         <h3 className="text-[#FFF] text-base md:text-lg font-semibold leading-6 md:leading-7">
                                             {reason.title}
                                         </h3>
-                                        <p className="text-[#D4D4D8] text-sm leading-relaxed">
+                                        <p className="text-[#D4D4D8] text-sm leading-normal">
                                             {reason.description}
                                         </p>
                                     </div>

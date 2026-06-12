@@ -35,65 +35,65 @@ const toolsData = [
     { id: 7, name: "ProtoPie", image: protopie, category: "ux-ui", width: 63, height: 64 },
     { id: 8, name: "Adobe Xd", image: adobexd, category: "ux-ui", width: 70, height: 70 },
     
-    // AI & Creative Intelligence
-    { id: 9, name: "Figma", image: figma, category: "ai", width: 48, height: 72 },
-    { id: 10, name: "FigJam", image: figjam, category: "ai", width: 72, height: 72 },
-    { id: 11, name: "Framer", image: framer, category: "ai", width: 48, height: 72 },
-    { id: 12, name: "Penpot", image: penpot, category: "ai", width: 54, height: 72 },
-    { id: 13, name: "Sketch", image: sketch, category: "ai", width: 70, height: 70 },
-    { id: 14, name: "Axure RP", image: axure, category: "ai", width: 72, height: 17 },
-    { id: 15, name: "ProtoPie", image: protopie, category: "ai", width: 63, height: 64 },
-    { id: 16, name: "Adobe Xd", image: adobexd, category: "ai", width: 70, height: 70 },
-    
-    // Low Code
-    { id: 17, name: "Figma", image: figma, category: "lowcode", width: 48, height: 72 },
-    { id: 18, name: "FigJam", image: figjam, category: "lowcode", width: 72, height: 72 },
-    { id: 19, name: "Framer", image: framer, category: "lowcode", width: 48, height: 72 },
-    { id: 20, name: "Penpot", image: penpot, category: "lowcode", width: 54, height: 72 },
-    { id: 21, name: "Sketch", image: sketch, category: "lowcode", width: 70, height: 70 },
-    { id: 22, name: "Axure RP", image: axure, category: "lowcode", width: 72, height: 17 },
-    { id: 23, name: "ProtoPie", image: protopie, category: "lowcode", width: 63, height: 64 },
-    { id: 24, name: "Adobe Xd", image: adobexd, category: "lowcode", width: 70, height: 70 },
-    
-    // Usability Testing
-    { id: 25, name: "Figma", image: figma, category: "usability", width: 48, height: 72 },
-    { id: 26, name: "FigJam", image: figjam, category: "usability", width: 72, height: 72 },
-    { id: 27, name: "Framer", image: framer, category: "usability", width: 48, height: 72 },
-    { id: 28, name: "Penpot", image: penpot, category: "usability", width: 54, height: 72 },
-    { id: 29, name: "Sketch", image: sketch, category: "usability", width: 70, height: 70 },
-    { id: 30, name: "Axure RP", image: axure, category: "usability", width: 72, height: 17 },
-    { id: 31, name: "ProtoPie", image: protopie, category: "usability", width: 63, height: 64 },
-    { id: 32, name: "Adobe Xd", image: adobexd, category: "usability", width: 70, height: 70 },
-    
-    // Graphic & Motion
-    { id: 33, name: "Figma", image: figma, category: "graphics", width: 48, height: 72 },
-    { id: 34, name: "FigJam", image: figjam, category: "graphics", width: 72, height: 72 },
-    { id: 35, name: "Framer", image: framer, category: "graphics", width: 48, height: 72 },
-    { id: 36, name: "Penpot", image: penpot, category: "graphics", width: 54, height: 72 },
-    { id: 37, name: "Sketch", image: sketch, category: "graphics", width: 70, height: 70 },
-    { id: 38, name: "Axure RP", image: axure, category: "graphics", width: 72, height: 17 },
-    { id: 39, name: "ProtoPie", image: protopie, category: "graphics", width: 63, height: 64 },
-    { id: 40, name: "Adobe Xd", image: adobexd, category: "graphics", width: 70, height: 70 },
-    
-    // Collaboration
-    { id: 41, name: "Figma", image: figma, category: "collaboration", width: 48, height: 72 },
-    { id: 42, name: "FigJam", image: figjam, category: "collaboration", width: 72, height: 72 },
-    { id: 43, name: "Framer", image: framer, category: "collaboration", width: 48, height: 72 },
-    { id: 44, name: "Penpot", image: penpot, category: "collaboration", width: 54, height: 72 },
-    { id: 45, name: "Sketch", image: sketch, category: "collaboration", width: 70, height: 70 },
-    { id: 46, name: "Axure RP", image: axure, category: "collaboration", width: 72, height: 17 },
-    { id: 47, name: "ProtoPie", image: protopie, category: "collaboration", width: 63, height: 64 },
-    { id: 48, name: "Adobe Xd", image: adobexd, category: "collaboration", width: 70, height: 70 },
-    
-    // Documentation
-    { id: 49, name: "Figma", image: figma, category: "documentation", width: 48, height: 72 },
-    { id: 50, name: "FigJam", image: figjam, category: "documentation", width: 72, height: 72 },
-    { id: 51, name: "Framer", image: framer, category: "documentation", width: 48, height: 72 },
-    { id: 52, name: "Penpot", image: penpot, category: "documentation", width: 54, height: 72 },
-    { id: 53, name: "Sketch", image: sketch, category: "documentation", width: 70, height: 70 },
-    { id: 54, name: "Axure RP", image: axure, category: "documentation", width: 72, height: 17 },
-    { id: 55, name: "ProtoPie", image: protopie, category: "documentation", width: 63, height: 64 },
-    { id: 56, name: "Adobe Xd", image: adobexd, category: "documentation", width: 70, height: 70 },
+   // AI & Creative Intelligence
+{ id: 9, name: "ProtoPie", image: protopie, category: "ai", width: 63, height: 64 },
+{ id: 10, name: "Figma", image: figma, category: "ai", width: 48, height: 72 },
+{ id: 11, name: "Adobe Xd", image: adobexd, category: "ai", width: 70, height: 70 },
+{ id: 12, name: "Sketch", image: sketch, category: "ai", width: 70, height: 70 },
+{ id: 13, name: "FigJam", image: figjam, category: "ai", width: 72, height: 72 },
+{ id: 14, name: "Penpot", image: penpot, category: "ai", width: 54, height: 72 },
+{ id: 15, name: "Axure RP", image: axure, category: "ai", width: 72, height: 17 },
+{ id: 16, name: "Framer", image: framer, category: "ai", width: 48, height: 72 },
+
+// Low Code
+{ id: 17, name: "Adobe Xd", image: adobexd, category: "lowcode", width: 70, height: 70 },
+{ id: 18, name: "Penpot", image: penpot, category: "lowcode", width: 54, height: 72 },
+{ id: 19, name: "FigJam", image: figjam, category: "lowcode", width: 72, height: 72 },
+{ id: 20, name: "ProtoPie", image: protopie, category: "lowcode", width: 63, height: 64 },
+{ id: 21, name: "Framer", image: framer, category: "lowcode", width: 48, height: 72 },
+{ id: 22, name: "Sketch", image: sketch, category: "lowcode", width: 70, height: 70 },
+{ id: 23, name: "Figma", image: figma, category: "lowcode", width: 48, height: 72 },
+{ id: 24, name: "Axure RP", image: axure, category: "lowcode", width: 72, height: 17 },
+
+// Usability Testing
+{ id: 25, name: "Sketch", image: sketch, category: "usability", width: 70, height: 70 },
+{ id: 26, name: "ProtoPie", image: protopie, category: "usability", width: 63, height: 64 },
+{ id: 27, name: "Penpot", image: penpot, category: "usability", width: 54, height: 72 },
+{ id: 28, name: "Adobe Xd", image: adobexd, category: "usability", width: 70, height: 70 },
+{ id: 29, name: "Figma", image: figma, category: "usability", width: 48, height: 72 },
+{ id: 30, name: "Axure RP", image: axure, category: "usability", width: 72, height: 17 },
+{ id: 31, name: "Framer", image: framer, category: "usability", width: 48, height: 72 },
+{ id: 32, name: "FigJam", image: figjam, category: "usability", width: 72, height: 72 },
+
+// Graphics
+{ id: 33, name: "FigJam", image: figjam, category: "graphics", width: 72, height: 72 },
+{ id: 34, name: "Axure RP", image: axure, category: "graphics", width: 72, height: 17 },
+{ id: 35, name: "Sketch", image: sketch, category: "graphics", width: 70, height: 70 },
+{ id: 36, name: "Figma", image: figma, category: "graphics", width: 48, height: 72 },
+{ id: 37, name: "Adobe Xd", image: adobexd, category: "graphics", width: 70, height: 70 },
+{ id: 38, name: "ProtoPie", image: protopie, category: "graphics", width: 63, height: 64 },
+{ id: 39, name: "Penpot", image: penpot, category: "graphics", width: 54, height: 72 },
+{ id: 40, name: "Framer", image: framer, category: "graphics", width: 48, height: 72 },
+
+// Collaboration
+{ id: 41, name: "Penpot", image: penpot, category: "collaboration", width: 54, height: 72 },
+{ id: 42, name: "Adobe Xd", image: adobexd, category: "collaboration", width: 70, height: 70 },
+{ id: 43, name: "Figma", image: figma, category: "collaboration", width: 48, height: 72 },
+{ id: 44, name: "ProtoPie", image: protopie, category: "collaboration", width: 63, height: 64 },
+{ id: 45, name: "Axure RP", image: axure, category: "collaboration", width: 72, height: 17 },
+{ id: 46, name: "Sketch", image: sketch, category: "collaboration", width: 70, height: 70 },
+{ id: 47, name: "Framer", image: framer, category: "collaboration", width: 48, height: 72 },
+{ id: 48, name: "FigJam", image: figjam, category: "collaboration", width: 72, height: 72 },
+
+// Documentation
+{ id: 49, name: "ProtoPie", image: protopie, category: "documentation", width: 63, height: 64 },
+{ id: 50, name: "Sketch", image: sketch, category: "documentation", width: 70, height: 70 },
+{ id: 51, name: "Adobe Xd", image: adobexd, category: "documentation", width: 70, height: 70 },
+{ id: 52, name: "FigJam", image: figjam, category: "documentation", width: 72, height: 72 },
+{ id: 53, name: "Penpot", image: penpot, category: "documentation", width: 54, height: 72 },
+{ id: 54, name: "Figma", image: figma, category: "documentation", width: 48, height: 72 },
+{ id: 55, name: "Axure RP", image: axure, category: "documentation", width: 72, height: 17 },
+{ id: 56, name: "Framer", image: framer, category: "documentation", width: 48, height: 72 },
 ];
 
 const StackSection = () => {
@@ -114,7 +114,7 @@ const StackSection = () => {
     const filteredTools = toolsData.filter(tool => tool.category === activeTab);
 
     return (
-        <section className="bg-[#0B0B0B]">
+        <section className="bg-[#0B0B0B]" id="stack">
             <div className="container">
                 <div className="py-6 md:py-15">
                     <div className="space-y-6 md:space-y-12">
