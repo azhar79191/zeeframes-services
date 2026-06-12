@@ -1,6 +1,6 @@
 import Button  from '@/src/components/button'
-import gif from "@/src/assets/images/gif.png"
-import bg from "@/src/assets/images/gradient-bg.png"
+import gif from "@/src/assets/images/gif.webp"
+import bg from "@/src/assets/images/gradient-bg.webp"
 import Image from 'next/image'
 
 const DesignSection = () => {

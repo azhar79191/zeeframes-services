@@ -1,8 +1,8 @@
 import { DesignIcon, FLowIcon, PrototypeIcon, ResearchIcon, StarIcon, TestingIcon } from "@/src/assets/icons";
 import Button from "@/src/components/button";
-import glassknot from "@/src/assets/images/glass-knot.png"
+import glassknot from "@/src/assets/images/glass-knot.webp"
 import Image from "next/image";
-import bgzee from "@/src/assets/images/bg-zee.png"
+import bgzee from "@/src/assets/images/bg-zee.webp"
 const reasons = [
     {
         id: 1,
@@ -24,19 +24,19 @@ const reasons = [
     },
     {
         id: 4,
-        icon: <ResearchIcon />,
+        icon: <FLowIcon />,
         title: "AI-certified",
         description: "Hands-on with AI tools and workflows — used to accelerate, not replace."
     },
     {
         id: 5,
-        icon: <TestingIcon />,
+        icon: <PrototypeIcon />,
         title: "Trusted by Global Brands",
         description: "Walmart, Cisco, Nissan, Trainee, and fast-growing startups worldwide trust our design craft."
     },
     {
         id: 6,
-        icon: <StarIcon />,
+        icon:<DesignIcon />,
         title: "Award-Winning Craft",
         description: "Rated on Clutch, Trustpilot, GoodFirms, and Dribble. Winner at the Tech Behemoths UX/UI Design Awards 2025."
     }
@@ -75,7 +75,7 @@ const WhyZeeframe = () => {
                                 >
                                     {/* Hover Glow Effect */}
                                     <div className="absolute -top-20 -left-20 w-40 h-40 bg-[#F3FE00] opacity-0 group-hover:opacity-30 blur-[80px] transition-opacity duration-500 pointer-events-none" />
-                                    
+
                                     <div className="text-4xl relative z-10">
                                         {reason.icon}
                                     </div>
@@ -101,7 +101,7 @@ const WhyZeeframe = () => {
                                 className="object-cover"
                             />
                         </div>
-                    
+
 
                         <div className="space-y-8 relative z-10">
                             <div className="space-y-3">
@@ -109,20 +109,20 @@ const WhyZeeframe = () => {
                                 <p className="text-sm md:text-lg text-[#27272A]">Browse our portfolio of successfully shipped products across SaaS, mobile, and enterprise platforms crafted with a focus on usability, innovation, and business growth.</p>
                             </div>
                             <Button
-                            text="View Our Work"
-                            href='/'
-                            textClassName="text-base font-semibold text-[#FFF]"
-                            iconClassName="text-white"
-                            className="bg-[#000] w-full md:w-fit flex items-center justify-center border-0"
+                                text="View Our Work"
+                                href="/"
+                                textClassName="text-base font-semibold text-[#FFF] group-hover:text-[#000]"
+                                iconClassName="text-white group-hover:text-[#000]"
+                                className="bg-[#000] group group-hover:bg-transparent group-hover:border group-hover:border-[#000] w-full md:w-fit flex items-center justify-center border-0"
                             />
                         </div>
                         <div className="relative z-10">
                             <Image
-                            src={glassknot}
-                            alt="glass_thumnail"
-                            width={264}
-                            height={226}
-                            className="w-[200px] md:w-[264px] h-[184px] md:h-[226px]"
+                                src={glassknot}
+                                alt="glass_thumnail"
+                                width={264}
+                                height={226}
+                                className="w-[200px] md:w-[264px] h-[184px] md:h-[226px]"
                             />
                         </div>
                     </div>

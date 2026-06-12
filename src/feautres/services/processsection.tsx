@@ -1,6 +1,6 @@
 import { ArrowButton, InformationIcon, ResearchIcon, StarIcon, TestingIcon } from "@/src/assets/icons";
 import Image from "next/image";
-import processImg from "../../assets/images/processimg.png";
+import processImg from "../../assets/images/processimg.webp";
 import Button from "@/src/components/button";
 
 const processCards = [

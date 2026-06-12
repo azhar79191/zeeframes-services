@@ -1,13 +1,13 @@
 import { ArrowButton, ArrowLeft, HomeIcon } from "@/src/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
-import logo1 from "../../assets/images/iso.png"
-import logo2 from '../../assets/images/top_clutch.png'
-import logo3 from "../../assets/images/goodfirm.png"
-import logo4 from "../../assets/images/winner.png"
-import heroImg from "../../assets/images/hero_img.png"
-import heroBg from "../../assets/images/hero-bg.png"
-import heroBackground from "../../assets/images/hero.png"
+import logo1 from "../../assets/images/iso.webp"
+import logo2 from '../../assets/images/top_clutch.webp'
+import logo3 from "../../assets/images/goodfirm.webp"
+import logo4 from "../../assets/images/winner.webp"
+import heroImg from "../../assets/images/hero_img.webp"
+import heroBg from "../../assets/images/hero-bg.webp"
+import heroBackground from "../../assets/images/hero.webp"
 import Button from "@/src/components/button";
 const partener = [
     {

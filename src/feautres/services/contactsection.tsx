@@ -6,7 +6,7 @@ import { z } from "zod";
 import FormInput from "@/src/components/forminput";
 import Button from "@/src/components/button";
 import { ClutchIcon, QuoteIcon, NavLeft, NavRightIcon } from "@/src/assets/icons";
-import di from "@/src/assets/images/di.png"
+import di from "@/src/assets/images/di.webp"
 
 // Validation schema
 const contactSchema = z.object({
@@ -181,14 +181,14 @@ const ContactSection = () => {
                                     <div className="flex items-center gap-5 md:gap-3">
                                         <button
                                             onClick={prevTestimonial}
-                                            className="p-3.5 rounded-full cursor-pointer border border-[#2D2D2D] flex items-center justify-center hover:border-[#27272A] transition-colors"
+                                            className="p-3.5 rounded-full cursor-pointer hover:bg-[#000] border border-[#2D2D2D] hover:border-[#A1A1AA] flex items-center justify-center hover:border-[#27272A] transition-colors"
                                             aria-label="Previous testimonial"
                                         >
                                             <NavLeft />
                                         </button>
                                         <button
                                             onClick={nextTestimonial}
-                                            className="p-3.5 rounded-full cursor-pointer border border-[#2D2D2D] flex items-center justify-center hover:border-[#27272A] transition-colors"
+                                            className="p-3.5 rounded-full cursor-pointer hover:bg-[#000] border border-[#2D2D2D] hover:border-[#A1A1AA] flex items-center justify-center  transition-colors"
                                             aria-label="Next testimonial"
                                         >
                                             <NavRightIcon />
@@ -261,7 +261,7 @@ const ContactSection = () => {
                                     <button
                                         type="submit"
                                         disabled={isSubmitting}
-                                        className="w-full bg-transparent border-[1.5px] border-[#F3FE00] cursor-pointer text-[#FFF] rounded-full py-3.5 px-5.5 text-base font-semibold hover:bg-[#F3FE00] hover:text-[#0B0B0B] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                        className="w-full bg-transparent border-[1.5px] border-[#F3FE00] hover:border-0 cursor-pointer text-[#FFF] rounded-full py-3.5 px-5.5 text-base font-semibold  hover:bg-gradient-to-r hover:from-[#F3FE00] hover:to-[#33DE1D] hover:text-[#0B0B0B] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                                     >
                                         {isSubmitting ? "Submitting..." : "Submit Inquiry"}
                                     </button>

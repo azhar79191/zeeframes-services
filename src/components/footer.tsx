@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import footerlogo from '../assets/images/f_logo.png'
-import logo1 from "../assets/images/iso.png"
-import logo2 from '../assets/images/top_clutch.png'
-import logo3 from "../assets/images/goodfirm.png"
-import logo4 from "../assets/images/winner.png"
-import bgFooter from '../assets/images/bg-footer.jpg'
+import footerlogo from '../assets/images/f_logo.webp'
+import logo1 from "../assets/images/iso.webp"
+import logo2 from '../assets/images/top_clutch.webp'
+import logo3 from "../assets/images/goodfirm.webp"
+import logo4 from "../assets/images/winner.webp"
+import bgFooter from '../assets/images/bg-footer.webp'
 import { BeIcon, Facebook, Insta, Internet, Linkden, YouTube } from "../assets/icons";
 
 const partener = [

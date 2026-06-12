@@ -1,9 +1,9 @@
 import { ArrowButton } from "@/src/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
-import insight1 from "../../assets/images/img1.png";
-import insight2 from "../../assets/images/image.png";
-import insight3 from "../../assets/images/img3.png";
+import insight1 from "../../assets/images/img1.webp";
+import insight2 from "../../assets/images/image.webp";
+import insight3 from "../../assets/images/img3.webp";
 import Button from "@/src/components/button";
 
 const insights = [
@@ -50,18 +50,18 @@ const InsightsSection = () => {
                                     Insights That Inspire Vision Forward
                                 </h2>
                             </div>
-                           <Button
-                           text="Explore More"
-                           className="bg-[#000] border-0 w-full md:w-fit flex items-center justify-center"
-                           textClassName="text-[#FFF] text-base font-medium"
-                           iconClassName="text-[#FFF]"
-                           />
+                            <Button
+                                text="Explore More"
+                                className="group bg-[#000] hover:bg-[#FFF] border-0 hover:border hover:border-[#000] w-full md:w-fit flex items-center justify-center"
+                                textClassName="text-[#FFF] group-hover:text-[#000] text-base font-medium"
+                                iconClassName="text-[#FFF] group-hover:text-[#000]"
+                            />
                         </header>
 
                         {/* Insights Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                             {insights.map((insight) => (
-                                <article 
+                                <article
                                     key={insight.id}
                                     className=" group"
                                 >

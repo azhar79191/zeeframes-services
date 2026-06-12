@@ -10,13 +10,13 @@ const useCases = [
     },
     {
         id: 2,
-        icon: <DashboardIcon />,
+        icon: <AuditIcon />,
         title: "SaaS Dashboard Redesign",
         description: "Rebuild a complex analytics dashboard with cleaner hierarchy, raising daily active usage."
     },
     {
         id: 3,
-        icon: <MobileIcon />,
+        icon: <StartegyIcon />,
         title: "Mobile App Redesign",
         description: "Native iOS and Android refresh with accessibility and new brand system baked in."
     },
@@ -34,7 +34,7 @@ const useCases = [
     },
     {
         id: 6,
-        icon: <SystemIcon />,
+        icon: <PerformanceIcon />,
         title: "Design System Build",
         description: "A component library and tokens shipping faster and cleaner across every product team."
     },

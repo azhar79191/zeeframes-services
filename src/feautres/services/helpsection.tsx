@@ -3,9 +3,9 @@
 import { AgenciesIcon, DropDownIcon, EnterpriseIcon, SaasIcon, StarIcon, Startup } from "@/src/assets/icons";
 import Image from "next/image";
 import { useState } from "react";
-import help from '../../assets/images/help.png'
-import helptop from "../../assets/images/help-top.png"
-import helpglow from "../../assets/images/help-glow.svg"
+import help from '../../assets/images/help.webp'
+import helptop from "../../assets/images/help-top.webp"
+import helpglow from "../../assets/images/help-glow.webp"
 import Button from "@/src/components/button";
 const signs = [
     { id: 0, text: "Your product looks outdated next to competitors." },
@@ -82,7 +82,7 @@ const HelpView = () => {
                                 className="w-full bg-[rgba(255,255,255,0.03)] border border-[#373737] rounded-md px-3 py-2.5 flex items-center justify-between text-white"
                             >
                                 <span className="text-lg font-semibold">{activeTabName}</span>
-                               <DropDownIcon/>
+                                <DropDownIcon />
                             </button>
 
                             {/* Dropdown Menu */}
@@ -92,11 +92,10 @@ const HelpView = () => {
                                         <button
                                             key={tab.id}
                                             onClick={() => selectTab(tab.id)}
-                                            className={`w-full px-6 py-4 text-left transition-colors ${
-                                                activeTab === tab.id
+                                            className={`w-full px-6 py-4 text-left transition-colors ${activeTab === tab.id
                                                     ? "bg-[#282601] text-[#F3FE00]"
                                                     : "text-[#71717A] hover:bg-[#1A1A1A] hover:text-white"
-                                            }`}
+                                                }`}
                                         >
                                             <span className="text-base font-medium">{tab.name}</span>
                                         </button>
@@ -120,12 +119,12 @@ const HelpView = () => {
                                 </button>
                             ))}
                             <div className="hidden md:block">
-                            <Image
-                                src={helpglow}
-                                alt="glow"
-                                className="absolute right-50 -top-80 z-0"
-                            />
-</div>
+                                <Image
+                                    src={helpglow}
+                                    alt="glow"
+                                    className="absolute right-50 -top-80 z-0"
+                                />
+                            </div>
                         </div>
                         <div className="flex flex-col gap-6 md:gap-15">
                             <div className="mt-6 md:mt-15 flex flex-col md:flex-row items-center md:justify-between">

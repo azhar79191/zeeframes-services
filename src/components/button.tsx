@@ -22,7 +22,7 @@ const Button = ({
   icon = <ArrowButton />,
 }: ButtonProps) => {
   const baseStyles =
-    "px-4 py-2 rounded-full border border-white text-sm font-medium leading-5 text-white transition-all duration-300 hover:bg-white hover:text-black flex items-center gap-2";
+    "px-4 py-2 rounded-full cursor-pointer border border-white text-sm font-medium leading-5 text-white transition-all duration-300 hover:bg-white hover:text-black flex items-center gap-2";
 
   const content = (
     <>

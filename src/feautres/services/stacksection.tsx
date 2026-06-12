@@ -4,14 +4,14 @@ import { useState } from "react";
 import Image from "next/image";
 
 // Import tool logos
-import figma from "../../assets/images/tools/figma.png";
-import figjam from "../../assets/images/tools/pen.png";
-import framer from "../../assets/images/tools/frmer.png";
-import penpot from "../../assets/images/tools/penpot.png";
-import sketch from "../../assets/images/tools/sketch.png";
-import axure from "../../assets/images/tools/axure.png";
-import protopie from "../../assets/images/tools/protpie.png";
-import adobexd from "../../assets/images/tools/xd.png";
+import figma from "../../assets/images/tools/figma.webp";
+import figjam from "../../assets/images/tools/pen.webp";
+import framer from "../../assets/images/tools/frmer.webp";
+import penpot from "../../assets/images/tools/penpot.webp";
+import sketch from "../../assets/images/tools/sketch.webp";
+import axure from "../../assets/images/tools/axure.webp";
+import protopie from "../../assets/images/tools/protpie.webp";
+import adobexd from "../../assets/images/tools/xd.webp";
 import { DropDownIcon } from "@/src/assets/icons";
 
 const tabs = [
