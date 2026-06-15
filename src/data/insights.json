@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "imageKey": "insight1",
+        "title": "20+ GenAI UX patterns, examples and implementation tactics",
+        "description": "A shared language for product teams to build usable, intelligent product experiences.",
+        "readTime": "7 min read",
+        "date": "Jan 23, 2025",
+        "slug": "genai-ux-patterns"
+    },
+    {
+        "id": 2,
+        "imageKey": "insight2",
+        "title": "Skipping Figma, human after all, Figma grid, accessibility as an afterthought",
+        "description": "Weekly curated resources for designers — thinkers and makers.",
+        "readTime": "7 min read",
+        "date": "Jan 23, 2025",
+        "slug": "weekly-design-resources"
+    },
+    {
+        "id": 3,
+        "imageKey": "insight3",
+        "title": "Is your creative character being sacrificed to Algorithm, Inc.?",
+        "description": "AI is changing how we work. Here's why and how we must preserve the human spirit that drives...",
+        "readTime": "7 min read",
+        "date": "Jan 23, 2025",
+        "slug": "creative-character-ai"
+    }
+]

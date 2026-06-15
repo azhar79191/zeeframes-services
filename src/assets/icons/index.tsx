@@ -45,4 +45,7 @@ import EuropeLogo from "./europe"
 import AsiaLogo from "./asia"
 import ToggleIcon from "./toggle"
 import DropDownIcon from "./dropdown"
-export {Internet,BeIcon,Facebook,Insta,Linkden,YouTube,ArrowButton,HomeIcon,ArrowLeft,AgenciesIcon,EnterpriseIcon,SaasIcon,Startup,HelpImage,StarIcon,PhoneCall,DesignIcon,MobileIcon,DashboardIcon,SystemIcon,FLowIcon,BrandIcon,PrototypeIcon,TestingIcon,InformationIcon,ResearchIcon,FundedIcon,EcomIcon,BagIcon,AuditIcon,PerformanceIcon,StartegyIcon,EvaluationIcon,AnalysisIcon,MapIcon,ClusterIcon,MinusIcon,PlusIcon,QuoteIcon,ClutchIcon,NavLeft,NavRightIcon,AmericaLogo,EuropeLogo,AsiaLogo,ToggleIcon,DropDownIcon}
+import BallsAnimation from "./balls"
+import CheckIcon from "./check"
+import JourneyIcon from "./journey"
+export {Internet,BeIcon,Facebook,Insta,Linkden,YouTube,ArrowButton,HomeIcon,ArrowLeft,AgenciesIcon,EnterpriseIcon,SaasIcon,Startup,HelpImage,StarIcon,PhoneCall,DesignIcon,MobileIcon,DashboardIcon,SystemIcon,FLowIcon,BrandIcon,PrototypeIcon,TestingIcon,InformationIcon,ResearchIcon,FundedIcon,EcomIcon,BagIcon,AuditIcon,PerformanceIcon,StartegyIcon,EvaluationIcon,AnalysisIcon,MapIcon,ClusterIcon,MinusIcon,PlusIcon,QuoteIcon,ClutchIcon,NavLeft,NavRightIcon,AmericaLogo,EuropeLogo,AsiaLogo,ToggleIcon,DropDownIcon,BallsAnimation,CheckIcon,JourneyIcon}

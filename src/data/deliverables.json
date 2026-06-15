@@ -1,0 +1,56 @@
+{
+    "tabs": [
+        { "id": "discover", "name": "Discover" },
+        { "id": "design",   "name": "Design" },
+        { "id": "validate", "name": "Validate" },
+        { "id": "ship",     "name": "Ship" }
+    ],
+    "deliverablesByTab": {
+        "discover": {
+            "mainTitle": "Stakeholder Interviews",
+            "mainDescription": "Structured conversations extracting goals, constraints & success metrics.",
+            "items": [
+                { "id": 1, "number": "02", "iconKey": "EvaluationIcon", "title": "Heuristic Evaluation",  "description": "Expert review against usability principles." },
+                { "id": 2, "number": "03", "iconKey": "AnalysisIcon",   "title": "Competitive Analysis",  "description": "Benchmark mapping gaps & opportunities." },
+                { "id": 3, "number": "04", "iconKey": "MapIcon",        "title": "User Journey Mapping",  "description": "Touchpoints, emotions and friction." },
+                { "id": 4, "number": "04", "iconKey": "ClusterIcon",    "title": "Affinity Clustering",   "description": "Insights grouped into themes." }
+            ]
+        },
+        "design": {
+            "mainTitle": "Information Architecture",
+            "mainDescription": "Card-sorted site maps & navigation taxonomies validated with users.",
+            "items": [
+                { "id": 1, "number": "02", "iconKey": "FLowIcon",       "title": "Interaction Flows",  "description": "Every state, branch and edge case." },
+                { "id": 2, "number": "03", "iconKey": "DesignIcon",     "title": "Lo-fi Wireframes",   "description": "Structural layouts for hierarchy." },
+                { "id": 3, "number": "04", "iconKey": "MobileIcon",     "title": "Hi-fi UI Screens",   "description": "Pixel-perfect brand fidelity." },
+                { "id": 4, "number": "05", "iconKey": "SystemIcon",     "title": "Design System",      "description": "Tokenized component library." }
+            ],
+            "extraCard": {
+                "iconKey": "PrototypeIcon",
+                "number": "06",
+                "title": "Micro-interactions",
+                "description": "Choreographed motion specs."
+            }
+        },
+        "validate": {
+            "mainTitle": "Interactive Prototype",
+            "mainDescription": "Figma or ProtoPie prototypes linked to real test scenarios.",
+            "layout": "special",
+            "topCard": { "id": 1, "number": "02", "iconKey": "EvaluationIcon", "title": "Usability Test Report",    "description": "Findings with severity-ranked fixes." },
+            "items": [
+                { "id": 2, "number": "03", "iconKey": "ClusterIcon",  "title": "Accessibility Audit",       "description": "WCAG 2.2 AA & remediation list." },
+                { "id": 3, "number": "04", "iconKey": "AnalysisIcon", "title": "A/B Test Specification",    "description": "Hypothesis-driven variants." }
+            ]
+        },
+        "ship": {
+            "mainTitle": "Developer Handoff",
+            "mainDescription": "Inspect-ready Figma file with redlines, assets and motion specs.",
+            "layout": "special",
+            "topCard": { "id": 1, "number": "02", "iconKey": "DesignIcon", "title": "Design QA Review",       "description": "Builds vs design audit pre-release." },
+            "items": [
+                { "id": 2, "number": "03", "iconKey": "EvaluationIcon", "title": "Documentation Site",       "description": "Living component reference." },
+                { "id": 3, "number": "04", "iconKey": "SystemIcon",     "title": "Maintenance Retainer",     "description": "Ongoing product support." }
+            ]
+        }
+    }
+}

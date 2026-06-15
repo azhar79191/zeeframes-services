@@ -1,0 +1,16 @@
+{
+    "signs": [
+        { "id": 0, "text": "Your product looks outdated next to competitors." },
+        { "id": 1, "text": "Users complete critical tasks more slowly than they should." },
+        { "id": 2, "text": "Your designers ship inconsistent screens without a design system.." },
+        { "id": 3, "text": "Engineering keeps getting handoffs that lack specs or assets." },
+        { "id": 4, "text": "Analytics show drop-offs at specific flows with no clear fix." },
+        { "id": 5, "text": "A product or feature launch needs a polished, on-brand interface fast." }
+    ],
+    "cards": [
+        { "id": 1, "iconKey": "Startup",       "title": "Startups & Founders",        "description": "Launch a polished MVP that impresses investors and converts your first real users." },
+        { "id": 2, "iconKey": "SaasIcon",      "title": "SaaS Companies",             "description": "Build and optimize product flows, and drive conversion from sign-up to success metrics." },
+        { "id": 3, "iconKey": "EnterpriseIcon","title": "Enterprise Teams",           "description": "Modernize legacy products with scalable design systems, UX consistency, and consultant-UX." },
+        { "id": 4, "iconKey": "AgenciesIcon",  "title": "Agencies & Consultancies",   "description": "White-labeled design partner for complex client, audits and UX across B2B or SaaS insights." }
+    ]
+}

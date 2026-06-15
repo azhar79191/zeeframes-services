@@ -1,0 +1,8 @@
+[
+    { "id": 1, "iconKey": "DesignIcon",    "title": "Senior Design Engineers",   "description": "Work with Fortune 500-caliber designers delivering shipgrade specs through engineering fluency." },
+    { "id": 2, "iconKey": "FLowIcon",      "title": "AI-Native Workflow",        "description": "Figma Make, Google Stitch, Lovable, and LLM synthesis are part of our daily design practice." },
+    { "id": 3, "iconKey": "PrototypeIcon", "title": "Domain Experts",            "description": "Senior UX designers with real EdTech and education product experience." },
+    { "id": 4, "iconKey": "FLowIcon",      "title": "AI-certified",              "description": "Hands-on with AI tools and workflows — used to accelerate, not replace." },
+    { "id": 5, "iconKey": "PrototypeIcon", "title": "Trusted by Global Brands",  "description": "Walmart, Cisco, Nissan, Trainee, and fast-growing startups worldwide trust our design craft." },
+    { "id": 6, "iconKey": "DesignIcon",    "title": "Award-Winning Craft",       "description": "Rated on Clutch, Trustpilot, GoodFirms, and Dribble. Winner at the Tech Behemoths UX/UI Design Awards 2025." }
+]

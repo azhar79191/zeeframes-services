@@ -1,0 +1,5 @@
+[
+    { "id": 1, "iconKey": "AmericaLogo", "region": "North America", "address": "555 Madison Avenue New York 10022, USA",                          "phone": "+1 (646) 820-1923",    "phoneLink": "tel:+16468201923" },
+    { "id": 2, "iconKey": "EuropeLogo",  "region": "Europe",        "address": "Phoenix 371 Deansgate, Manchester M15 4UN, United Kingdom",        "phone": "+44 (161) 0786-822",   "phoneLink": "tel:+441610786822" },
+    { "id": 3, "iconKey": "AsiaLogo",    "region": "Asia",          "address": "H.N.2, Block 5, Baharia Society Near DHA Phase 8, Karachi",        "phone": "0312-3789425",          "phoneLink": "tel:+923123789425" }
+]

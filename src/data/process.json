@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "iconKey": "ResearchIcon",
+        "title": "Discovery & Research",
+        "points": [
+            "Kickoff workshop and stakeholder alignment in FigJam.",
+            "User research, competitive benchmarking, and analytics review.",
+            "Clear design brief with goals, KPIs, and success metrics."
+        ]
+    },
+    {
+        "id": 2,
+        "iconKey": "InformationIcon",
+        "title": "Information Architecture & Flows",
+        "points": [
+            "User journey mapping and sitemap design.",
+            "Task flows for critical user actions.",
+            "Low-fidelity wireframes for structure review."
+        ]
+    },
+    {
+        "id": 3,
+        "iconKey": "TestingIcon",
+        "title": "Design & Testing",
+        "points": [
+            "High-fidelity UI design in Figma with Figma Make and Auto Layout for rapid exploration.",
+            "Custom visual language, typography system, and color tokens.",
+            "Motion and micro-interaction direction using Lottie and Spline."
+        ]
+    },
+    {
+        "id": 4,
+        "isSpecial": true
+    }
+]

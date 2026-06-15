@@ -63,28 +63,29 @@ const StickyNavigation = () => {
 
     // Scroll spy to update active tab based on visible section
     useEffect(() => {
-        const handleScroll = () => {
-            const sections = tabs.map(tab => ({
-                id: tab.id,
-                element: document.querySelector(tab.href)
-            }));
+        const observers: IntersectionObserver[] = [];
 
-            const scrollPosition = window.scrollY + 200; // Offset for better UX
+        tabs.forEach((tab) => {
+            const element = document.querySelector(tab.href);
+            if (!element) return;
 
-            for (let i = sections.length - 1; i >= 0; i--) {
-                const section = sections[i];
-                if (section.element) {
-                    const sectionTop = (section.element as HTMLElement).offsetTop;
-                    if (scrollPosition >= sectionTop) {
-                        setActiveTab(section.id);
-                        break;
+            const observer = new IntersectionObserver(
+                ([entry]) => {
+                    if (entry.isIntersecting) {
+                        setActiveTab(tab.id);
                     }
+                },
+                {
+                    rootMargin: "-40% 0px -55% 0px",
+                    threshold: 0
                 }
-            }
-        };
+            );
 
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+            observer.observe(element);
+            observers.push(observer);
+        });
+
+        return () => observers.forEach(o => o.disconnect());
     }, []);
 
     return (

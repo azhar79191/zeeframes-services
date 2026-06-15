@@ -1,0 +1,11 @@
+[
+    { "id": 1, "iconKey": "FundedIcon",     "title": "MVP Design for a Funded Startup",       "description": "From Figma wireframes to a launch-ready interface in 6 weeks, validated with real users." },
+    { "id": 2, "iconKey": "AuditIcon",      "title": "SaaS Dashboard Redesign",               "description": "Rebuild a complex analytics dashboard with cleaner hierarchy, raising daily active usage." },
+    { "id": 3, "iconKey": "StartegyIcon",   "title": "Mobile App Redesign",                   "description": "Native iOS and Android refresh with accessibility and new brand system baked in." },
+    { "id": 4, "iconKey": "EcomIcon",       "title": "E-commerce Experience Overhaul",        "description": "Checkout redesign and navigation simplification to improve conversion metrics." },
+    { "id": 5, "iconKey": "BagIcon",        "title": "Enterprise Legacy Modernization",       "description": "Phased modernization of an internal tool with a scalable design system for long-term consistency." },
+    { "id": 6, "iconKey": "PerformanceIcon","title": "Design System Build",                   "description": "A component library and tokens shipping faster and cleaner across every product team." },
+    { "id": 7, "iconKey": "AuditIcon",      "title": "UI/UX Experience Audit",                "description": "Lorem ipsum dolor sit amet consectetur. Nulla neque diam odio eget cras amet." },
+    { "id": 8, "iconKey": "PerformanceIcon","title": "Design Performance Testing Review",     "description": "Lorem ipsum dolor sit amet consectetur. Nulla neque diam odio eget cras amet." },
+    { "id": 9, "iconKey": "StartegyIcon",   "title": "UI/UX Strategy Consultation",           "description": "Lorem ipsum dolor sit amet consectetur. Nulla neque diam odio eget cras amet." }
+]

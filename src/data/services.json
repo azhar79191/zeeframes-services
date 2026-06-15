@@ -1,0 +1,11 @@
+[
+    { "id": 1, "iconKey": "DesignIcon",    "title": "Product UI Design",           "description": "High-fidelity, on-brand interfaces for web, SaaS, and mobile products." },
+    { "id": 2, "iconKey": "FLowIcon",      "title": "UX Design & Flows",           "description": "Information architecture, user flows, wireframes, and interaction design." },
+    { "id": 3, "iconKey": "BrandIcon",     "title": "Branding & Visual Identity",  "description": "Logo design, color systems, typography, and brand guidelines that create lasting impressions." },
+    { "id": 4, "iconKey": "MobileIcon",    "title": "Mobile App Design",           "description": "Native iOS and Android interfaces designed for real-world usage patterns." },
+    { "id": 5, "iconKey": "DashboardIcon", "title": "SaaS & Dashboard Design",     "description": "Complex data visualization, workflow design, and enterprise-grade interfaces." },
+    { "id": 6, "iconKey": "SystemIcon",    "title": "Design Systems",              "description": "Scalable component libraries and tokens that keep teams shipping consistently." },
+    { "id": 7, "iconKey": "PrototypeIcon", "title": "Prototyping & Testing",       "description": "Interactive prototypes validated with real users before engineering commits." },
+    { "id": 8, "iconKey": "Startup",       "title": "MVP & Product Revamp Design", "description": "From first-version MVPs to full product modernization — we deliver clean that's ready for engineering, launch, and growth." },
+    { "id": 9, "isSpecial": true }
+]

@@ -1,0 +1,31 @@
+{
+    "testimonials": [
+        {
+            "id": 1,
+            "quote": "ZeeFrames delivered the complete design within the agreed timeline, and the client received positive user feedback on the app's ease of use and visual appeal during testing. The team demonstrated excellent project management and was very organized in their approach throughout the engagement.",
+            "author": "Dashir Ibrahim",
+            "role": "Project Manager, E Salaax",
+            "avatarKey": "di"
+        },
+        {
+            "id": 2,
+            "quote": "The design quality exceeded our expectations. The team was responsive, professional, and delivered exactly what we needed for our product launch.",
+            "author": "Sarah Johnson",
+            "role": "Project Manager, E Salaax",
+            "avatarKey": "di"
+        },
+        {
+            "id": 3,
+            "quote": "Working with ZeeFrames was a game-changer for our product. Their attention to detail and user-centric approach made all the difference.",
+            "author": "Michael Chen",
+            "role": "Project Manager, E Salaax",
+            "avatarKey": "di"
+        }
+    ],
+    "formFields": [
+        { "name": "fullName", "label": "Full Name",          "type": "text",  "required": true,  "col": 1 },
+        { "name": "email",    "label": "Email Address",      "type": "email", "required": true,  "col": 2 },
+        { "name": "phone",    "label": "Phone Number",       "type": "tel",   "required": true,  "col": 1 },
+        { "name": "country",  "label": "Country (Optional)", "type": "text",  "required": false, "col": 2 }
+    ]
+}

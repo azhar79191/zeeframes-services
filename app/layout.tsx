@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Inter_Tight } from "next/font/google";
 import "./globals.css";
 import Header from "@/src/components/header";
 import Footer from "@/src/components/footer";
@@ -7,6 +7,12 @@ import Footer from "@/src/components/footer";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const interTight = Inter_Tight({
+  subsets: ["latin"],
+  variable: "--font-inter-tight",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -22,7 +28,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} antialiased`}
+      className={`${inter.variable} ${interTight.variable} antialiased`}
     >
       <body className={`${inter.className}`}>
         <Header />
