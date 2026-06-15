@@ -142,7 +142,7 @@ const Footer = () => {
                         <p className="text-sm text-[#8F8F8F] hidden md:block">© 2026 Copyright ZeeFrames Private Limited. All rights reserved.</p>
                         <p className="text-sm text-[#8F8F8F] block md:hidden">© ZeeFrames (Private) Limited. All Rights Reserved.</p>
                         <p className="text-sm text-[#8F8F8F]">Privacy Policy</p>
-                        <ul className="flex justify-between md:gap-4 items-center">
+                        <ul className="w-full md:w-fit flex justify-between md:gap-4 items-center">
                             {socialLinks.map((item, index) => (
                                 <li key={index} className="p-2">
                                     <Link href={item.link} aria-label={item.label}>

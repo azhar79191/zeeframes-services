@@ -148,7 +148,6 @@ const ContactSection = () => {
                                                 label={field.label}
                                                 name={field.name}
                                                 type={field.type}
-                                                required={field.required}
                                                 value={formData[field.name as keyof ContactFormData] as string}
                                                 onChange={handleChange}
                                                 error={errors[field.name as keyof ContactFormData]}
@@ -161,7 +160,6 @@ const ContactSection = () => {
                                     <FormInput
                                         label="Message"
                                         name="message"
-                                        required={true}
                                         value={formData.message}
                                         onChange={handleChange}
                                         error={errors.message}
