@@ -32,7 +32,7 @@ const FaqSection = () => {
                                 >
                                     <button
                                         onClick={() => setOpenId(openId === faq.id ? null : faq.id)}
-                                        className={`w-full px-6 pt-6 flex items-center justify-between text-left ${openId === faq.id ? 'pb-0' : 'pb-6'}`}
+                                        className={`w-full px-6 pt-6 cursor-pointer flex items-center justify-between text-left ${openId === faq.id ? 'pb-0' : 'pb-6'}`}
                                     >
                                         <h3 className="text-[#27272A] font-tight text-base md:text-lg font-semibold leading-6 md:leading-7">
                                             {faq.question}
