@@ -21,7 +21,7 @@ const DeliverableCard = ({ icon, number, title, description, animationIndex, cla
             <div aria-hidden="true" className="absolute -bottom-20 left-1/2 -translate-x-1/2 w-40 h-40 bg-[#F3FE00] opacity-0 group-hover:opacity-30 blur-[80px] transition-opacity duration-500 pointer-events-none" />
             {Animation && <Animation />}
             <div className="flex items-start justify-between relative z-10">
-                <span>{icon}</span>
+                <span className="[&_svg_path]:transition-colors [&_svg_path]:duration-500 [&_svg_rect]:transition-colors [&_svg_rect]:duration-500 group-hover:[&_svg_path]:stroke-[#F3FE00] group-hover:[&_svg_rect]:fill-[#F3FE00]">{icon}</span>
                 <span className="text-[#71717A] text-xs">{number}</span>
             </div>
             <div className="flex flex-col gap-1.5 relative z-10">

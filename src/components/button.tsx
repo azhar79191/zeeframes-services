@@ -10,6 +10,7 @@ interface ButtonProps {
   textClassName?: string;
   iconClassName?: string;
   icon?: ReactNode;
+  "aria-label"?: string;
 }
 
 const Button = ({
@@ -20,6 +21,7 @@ const Button = ({
   textClassName = "",
   iconClassName = "",
   icon = <ArrowButton />,
+  "aria-label": ariaLabel,
 }: ButtonProps) => {
   const baseStyles =
     "px-4 py-2 rounded-full cursor-pointer border border-white text-sm font-medium leading-5 text-white transition-all duration-300 hover:bg-white hover:text-black flex items-center gap-2";
@@ -36,14 +38,14 @@ const Button = ({
 
   if (href) {
     return (
-      <Link href={href} className={`${baseStyles} ${className}`}>
+      <Link href={href} aria-label={ariaLabel ?? text} className={`${baseStyles} ${className}`}>
         {content}
       </Link>
     );
   }
 
   return (
-    <button onClick={onClick} className={`${baseStyles} ${className}`}>
+    <button onClick={onClick} aria-label={ariaLabel ?? text} className={`${baseStyles} ${className}`}>
       {content}
     </button>
   );

@@ -1,5 +1,5 @@
 import Button from '@/src/components/button'
-import gif from "@/src/assets/images/gif.webp"
+import gif from "@/src/assets/images/spining-star-BHYjMLGF.gif"
 import bg from "@/src/assets/images/gradient-bg.webp"
 import Image from 'next/image'
 
@@ -27,13 +27,23 @@ const DesignSection = () => {
                             iconClassName='text-[#0B0B0B]'
                         />
                     </div>
-                    <Image
-                        src={gif}
-                        alt='gif'
-                        width={300}
-                        height={300}
-                        className='w-[342px] md:w-[300px] h-[277px] md:h-[300px] '
-                    />
+                    <div className="relative  max-w-[260px] md:max-w-[294px] h-[294px]">
+                        <Image
+                            src={gif}
+                            alt='gif'
+                            width={294}
+                            height={294}
+                            className='w-[294] md:w-[294px] h-[294px]'
+                        />
+                        <Image
+                            src={gif}
+                            alt='gif'
+                            width={103}
+                            height={103}
+                            className='absolute top-0 right-3 w-[103px] h-[103px]'
+                        />
+                    </div>
+
                 </div>
             </div>
         </section>

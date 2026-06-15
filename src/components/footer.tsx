@@ -9,34 +9,10 @@ import bgFooter from '../assets/images/bg-footer.webp'
 import { BeIcon, Facebook, Insta, Internet, Linkden, YouTube } from "../assets/icons";
 
 const partener = [
-    {
-        id: 1,
-        img: logo1,
-        alt: "iso logo",
-        width: 62,
-        height: 62,
-    },
-    {
-        id: 2,
-        img: logo2,
-        alt: "top clutch logo",
-        width: 57,
-        height: 62,
-    },
-    {
-        id: 3,
-        img: logo3,
-        alt: "goodfirm logo",
-        width: 79,
-        height: 54,
-    },
-    {
-        id: 4,
-        img: logo4,
-        alt: "winner logo",
-        width: 90,
-        height: 60,
-    }
+    { id: 1, img: logo1, alt: "ISO certification", width: 62, height: 62 },
+    { id: 2, img: logo2, alt: "Top Clutch award", width: 57, height: 62 },
+    { id: 3, img: logo3, alt: "GoodFirms recognition", width: 79, height: 54 },
+    { id: 4, img: logo4, alt: "Winner award", width: 90, height: 60 },
 ]
 
 const navigation = [
@@ -77,37 +53,12 @@ const navigation = [
 ]
 
 const socialLinks = [
-    {
-        id: 1,
-        svg: <Internet />,
-        link: "www.google.com"
-    },
-    {
-        id: 2,
-        svg: <BeIcon />,
-        link: "www.be.com"
-    },
-    {
-        id: 3,
-        svg: <YouTube />,
-        link: "www.youtube.com"
-    },
-    {
-        id: 4,
-        svg: <Facebook />,
-        link: "www.facebook.com"
-    },
-    {
-        id: 5,
-        svg: <Linkden />,
-        link: "www.linkden.com"
-    },
-     {
-        id: 6,
-        svg: <Insta />,
-        link: "www.instagram.com"
-    }
-
+    { id: 1, svg: <Internet />, link: "www.google.com", label: "Visit our website" },
+    { id: 2, svg: <BeIcon />, link: "www.be.com", label: "View our Behance portfolio" },
+    { id: 3, svg: <YouTube />, link: "www.youtube.com", label: "Watch us on YouTube" },
+    { id: 4, svg: <Facebook />, link: "www.facebook.com", label: "Follow us on Facebook" },
+    { id: 5, svg: <Linkden />, link: "www.linkden.com", label: "Connect on LinkedIn" },
+    { id: 6, svg: <Insta />, link: "www.instagram.com", label: "Follow us on Instagram" },
 ]
 
 const Footer = () => {
@@ -125,7 +76,7 @@ const Footer = () => {
 
             <div className="container relative z-10">
                 <div className="flex flex-col gap-10 md:gap-18">
-                    <Link href='/'>
+                    <Link href='/' aria-label="Zeeframes home">
                         <Image
                             src={footerlogo}
                             alt="logo"
@@ -140,7 +91,7 @@ const Footer = () => {
                             <ul className="hidden md:flex items-center gap-5">
                                 {partener.map((item, index) => (
                                     <li key={index}>
-                                        <Link href="/">
+                                        <Link href="/" aria-label={`${item.alt} - view certification`}>
                                             <Image
                                                 src={item.img}
                                                 alt={item.alt}
@@ -162,7 +113,7 @@ const Footer = () => {
                                     <ul className="flex flex-col gap-3.5">
                                         {section.links.map((link, index) => (
                                             <li key={index}>
-                                                <Link href={link.href} className="text-[#D4D4D8] text-sm">
+                                                <Link href={link.href} aria-label={`${link.name} - ${section.title}`} className="text-[#D4D4D8] text-sm">
                                                     {link.name}
                                                 </Link>
                                             </li>
@@ -171,39 +122,37 @@ const Footer = () => {
                                 </div>
                             ))}
                         </div>
-                          <ul className="flex md:hidden items-center -mt-0.5 gap-5">
-                                {partener.map((item, index) => (
-                                    <li key={index}>
-                                        <Link href="/">
-                                            <Image
-                                                src={item.img}
-                                                alt={item.alt}
-                                                width={item.width}
-                                                height={item.height}
-                                                style={{ width: "auto", height: "auto" }}
-                                            />
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
+                        <ul className="flex md:hidden items-center -mt-0.5 gap-5">
+                            {partener.map((item, index) => (
+                                <li key={index}>
+                                    <Link href="/" aria-label={`${item.alt} - view certification`}>
+                                        <Image
+                                            src={item.img}
+                                            alt={item.alt}
+                                            width={item.width}
+                                            height={item.height}
+                                            style={{ width: "auto", height: "auto" }}
+                                        />
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                     <div className="flex flex-col md:flex-row items-center gap-5 md:justify-between">
                         <p className="text-sm text-[#8F8F8F] hidden md:block">© 2026 Copyright ZeeFrames Private Limited. All rights reserved.</p>
                         <p className="text-sm text-[#8F8F8F] block md:hidden">© ZeeFrames (Private) Limited. All Rights Reserved.</p>
                         <p className="text-sm text-[#8F8F8F]">Privacy Policy</p>
-                        <ul className="flex justify-between md:gap-4 items-center ">
+                        <ul className="flex justify-between md:gap-4 items-center">
                             {socialLinks.map((item, index) => (
-                                <li key={index}  className="p-2">
-                                    <Link href={item.link}>
+                                <li key={index} className="p-2">
+                                    <Link href={item.link} aria-label={item.label}>
                                         {item.svg}
                                     </Link>
                                 </li>
                             ))}
                         </ul>
                     </div>
-
                 </div>
-
             </div>
         </footer>
     );

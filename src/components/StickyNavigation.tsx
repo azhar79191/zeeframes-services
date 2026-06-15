@@ -127,6 +127,7 @@ const StickyNavigation = () => {
                             <a
                                 key={tab.id}
                                 href={tab.href}
+                                aria-label={`Scroll to ${tab.name} section`}
                                 onClick={(e) => handleTabClick(e, tab.id, tab.href)}
                                 className={`px-3 py-2 text-sm font-medium cursor-pointer rounded-md transition-colors ${activeTab === tab.id
                                     ? "text-[#F3FE00] bg-[#282601]"

@@ -46,13 +46,14 @@ const ServicesSection = () => {
                                             <p className="text-[#52525B] group-hover:text-[#52525B] text-sm transition-colors">
                                                 Tell us where you are and we'll recommend the right approach — honestly.
                                             </p>
-                                            <Button
+                                            <Link
                                                 href="/consultation"
-                                                text="Get a Free Consultation"
-                                                className="bg-[#0B0B0B] group-hover:bg-[#F3FE00] group-hover:border hover:!border-[#000] w-fit"
-                                                textClassName="text-sm font-medium text-[#FFF] group-hover:text-[#0B0B0B]"
-                                                iconClassName="text-[#FFF] group-hover:text-[#0B0B0B]"
-                                            />
+                                                aria-label="Get a free consultation"
+                                                className="group/btn px-4 py-2 rounded-full border text-sm font-medium leading-5 flex items-center gap-2 w-fit transition-all duration-300 bg-[#0B0B0B] border-white text-white group-hover:bg-white group-hover:border-black group-hover:text-black group-hover/btn:bg-transparent"
+                                            >
+                                                <span>Get a Free Consultation</span>
+                                                <span className="p-1"><ArrowButton /></span>
+                                            </Link>
                                         </div>
                                     </div>
                                 ) : (

@@ -18,7 +18,7 @@ const MainCard = ({ title, description, image, className = "", hasExtraCard }: M
             src={image}
             alt="animations"
             aria-hidden="true"
-            className="pointer-events-none absolute inset-x-0 bottom-6 left-6 z-0 h-auto w-full max-w-147 -translate-x-20 opacity-0 transition-all duration-1000 ease-out group-hover:translate-x-0 group-hover:opacity-100"
+            className="pointer-events-none absolute inset-x-0 bottom-6 left-6 z-0 h-auto w-full max-w-147 scale-40 opacity-0 transition-all duration-1000 ease-out group-hover:scale-100 group-hover:opacity-100"
         />
         <div className="flex items-start flex-col gap-3 relative z-10">
             <h3 className="text-[#F4F4EE] font-tight text-lg md:text-5xl font-semibold md:font-bold leading-7 md:leading-15 tracking-[-0.96px]">

@@ -52,20 +52,20 @@ const Header = () => {
             <div className="container">
                 <nav className="flex items-center px-2 md:px-10 py-5 md:py-9 justify-between">
                     {/* Logo */}
-                    <Link href='/'>
+                    <Link href='/' aria-label="Zeeframes home">
                         <Image
                             src={logo}
                             alt="logo"
-                            width={129}
-                            height={22}
-                            className="w-[115px] md:w-[129px]"
+                            width={130}
+                            height={22.5}
+                            className="w-[115px] md:w-[130px]"
                         />
                     </Link>
                     {/* Desktop Navigation */}
                     <ul className="hidden lg:flex items-center">
                         {navlinks.map((item, index) => (
                             <li key={index} className="px-4">
-                                <Link href={item.link} className="text-sm leading-5 text-[#FFFFFF] hover:text-[#F3FE00] transition-colors">
+                                <Link href={item.link} aria-label={`Navigate to ${item.text}`} className="text-sm leading-5 text-[#FFFFFF] hover:text-[#F3FE00] transition-colors">
                                     {item.text}
                                 </Link>
                             </li>
@@ -74,7 +74,7 @@ const Header = () => {
 
                     {/* Desktop CTA Button */}
                     <div className="hidden lg:block">
-                        <Button text="Work with Us" href='/' />
+                        <Button text="Work with Us" href='/' aria-label="Work with us - contact Zeeframes" />
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -96,6 +96,7 @@ const Header = () => {
                                 <li key={index}>
                                     <Link
                                         href={item.link}
+                                        aria-label={`Navigate to ${item.text}`}
                                         className="text-2xl leading-8 text-[#FFFFFF] hover:text-[#F3FE00] transition-colors"
                                         onClick={toggleMobileMenu}
                                     >
@@ -104,7 +105,7 @@ const Header = () => {
                                 </li>
                             ))}
                         </ul>
-                        <Button text="Work with Us" href='/' />
+                        <Button text="Work with Us" href='/' aria-label="Work with us - contact Zeeframes" />
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@ const FaqSection = () => {
                                 >
                                     <button
                                         onClick={() => setOpenId(openId === faq.id ? null : faq.id)}
-                                        className="w-full p-6 flex items-center justify-between text-left"
+                                        className={`w-full px-6 pt-6 flex items-center justify-between text-left ${openId === faq.id ? 'pb-0' : 'pb-6'}`}
                                     >
                                         <h3 className="text-[#27272A] font-tight text-base md:text-lg font-semibold leading-6 md:leading-7">
                                             {faq.question}
@@ -41,11 +41,13 @@ const FaqSection = () => {
                                             {openId === faq.id ? <MinusIcon /> : <PlusIcon />}
                                         </span>
                                     </button>
-                                    {openId === faq.id && (
-                                        <div className="px-6 pb-6 pt-2">
-                                            <p className="text-[#3F3F46] text-sm leading-normal">{faq.answer}</p>
+                                    <div className={`grid transition-all duration-300 ease-in-out ${openId === faq.id ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
+                                        <div className="overflow-hidden">
+                                            <div className="px-6 pb-6 pt-2">
+                                                <p className="text-[#3F3F46] text-sm leading-normal">{faq.answer}</p>
+                                            </div>
                                         </div>
-                                    )}
+                                    </div>
                                 </div>
                             ))}
                         </div>

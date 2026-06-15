@@ -7,7 +7,7 @@ const JourneyIcon=()=>{
             <rect x="18" y="28.7" width="45" height="1.6" rx="0.8" fill="rgba(243,254,0,0.3)"
                 className="opacity-0 -translate-x-2.5 scale-x-0 origin-left group-hover:opacity-100 group-hover:translate-x-0 group-hover:scale-x-100 transition-all duration-800" />
             {/* Center node */}
-            <circle cx="72" cy="30" r="9" fill="rgba(243,254,0,0.3)" className="blur-[1px] opacity-0 -translate-x-8.75 scale-50 group-hover:opacity-100 group-hover:translate-x-0 group-hover:scale-100 transition-all duration-800" />
+            <circle cx="72" cy="30" r="9" fill="rgba(243,254,0,0.3)" style={{ transformBox: 'fill-box', transformOrigin: 'center' }} className="blur-[1px] opacity-0 -translate-x-[60px] scale-50 group-hover:opacity-100 group-hover:translate-x-0 group-hover:scale-100 transition-all duration-800" />
             {/* Top-right line */}
             <rect x="81" y="11.7" width="45" height="1.6" rx="0.8" fill="rgba(243,254,0,0.3)"
                 className="opacity-0 -translate-x-30 scale-x-[0.3] origin-right group-hover:opacity-100 group-hover:translate-x-0 group-hover:scale-x-100 transition-all duration-800" />

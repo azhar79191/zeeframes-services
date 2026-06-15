@@ -60,7 +60,7 @@ const WhyZeeframe = () => {
                         <div className="space-y-8 relative z-10">
                             <div className="space-y-3">
                                 <h3 className="text-4xl md:text-5xl font-tight font-semibold leading-11 md:leading-15 text-[#27272A] -tracking-[0.96px]">See how we've helped others win</h3>
-                                <p className="text-sm md:text-lg text-[#27272A]">Browse our portfolio of successfully shipped products across SaaS, mobile, and enterprise platforms crafted with a focus on usability, innovation, and business growth.</p>
+                                <p className="text-sm md:text-lg w-full md:w-[779px] font-tight text-[#27272A]">Browse our portfolio of successfully shipped products across SaaS, mobile, and enterprise platforms crafted with a focus on usability, innovation, and business growth.</p>
                             </div>
                             <Button
                                 text="View Our Work"
