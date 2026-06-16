@@ -51,9 +51,9 @@ const UsecasesSection = () => {
                                             <p className="text-[#3F3F46] text-sm">{useCase.description}</p>
                                         </div>
                                         <Link href="#" className="text-[#18181B] text-sm font-medium hover:underline">
-                                            <div className="flex items-center gap-2">
+                                            <div className="flex items-center gap-2 group">
                                                 <span>View Details</span>
-                                                <div className="block md:hidden"><ArrowButton /></div>
+                                                <div className="opacity-100 md:opacity-0 group-hover:opacity-100"><ArrowButton /></div>
                                             </div>
                                         </Link>
                                     </div>
