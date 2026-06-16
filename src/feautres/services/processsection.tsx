@@ -1,4 +1,4 @@
-import { ArrowButton, InformationIcon, ResearchIcon, StarIcon, TestingIcon } from "@/src/assets/icons";
+import {InformationIcon, ResearchIcon, StarIcon, TestingIcon } from "@/src/assets/icons";
 import Image from "next/image";
 import processImg from "../../assets/images/processimg.webp";
 import Button from "@/src/components/button";
@@ -35,7 +35,7 @@ const ProcessSection = () => {
                                             alt="process"
                                             width={338}
                                             height={193}
-                                            className="w-[358px] md:w-[338px] h-auto"
+                                            className="w-89.5 md:w-84.5 h-auto"
                                         />
                                         <div className="flex flex-col gap-6 md:gap-8 p-5">
                                             <div className="flex flex-col gap-2.5">
@@ -47,7 +47,7 @@ const ProcessSection = () => {
                                                 text="Start Your Project"
                                                 textClassName="!text-black"
                                                 iconClassName="!text-black"
-                                                className="w-full md:w-fit flex items-center justify-center !bg-[#FFF] hover:!bg-[#F3FE00] w-fit hover:!border hover:!border-[#F3FE00]"
+                                                className="w-full md:w-fit flex items-center justify-center !bg-[#FFF] hover:!bg-[#F3FE00]  hover:!border hover:!border-[#F3FE00]"
                                             />
                                         </div>
                                     </div>

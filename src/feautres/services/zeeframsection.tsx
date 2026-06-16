@@ -59,19 +59,19 @@ const WhyZeeframe = () => {
                         </div>
                         <div className="space-y-8 relative z-10">
                             <div className="space-y-3">
-                                <h3 className="text-4xl md:text-5xl font-tight font-semibold leading-11 md:leading-15 text-[#27272A] -tracking-[0.96px]">See how we've helped others win</h3>
-                                <p className="text-sm md:text-lg w-full md:w-[779px] font-tight text-[#27272A]">Browse our portfolio of successfully shipped products across SaaS, mobile, and enterprise platforms crafted with a focus on usability, innovation, and business growth.</p>
+                                <h3 className="text-4xl md:text-5xl font-tight font-semibold leading-11 md:leading-15 text-[#27272A] tracking-[-0.96px]">See how we've helped others win</h3>
+                                <p className="text-sm md:text-lg w-full md:w-194.75 font-tight text-[#27272A]">Browse our portfolio of successfully shipped products across SaaS, mobile, and enterprise platforms crafted with a focus on usability, innovation, and business growth.</p>
                             </div>
                             <Button
                                 text="View Our Work"
                                 href="/"
                                 textClassName="text-base font-semibold text-[#FFF] group-hover:text-[#000]"
                                 iconClassName="text-white group-hover:text-[#000]"
-                                className="bg-[#000] group group-hover:bg-transparent group-hover:border group-hover:border-[#000] w-full md:w-fit flex items-center justify-center border-0"
+                                className="bg-black group group-hover:bg-transparent group-hover:border group-hover:border-black w-full md:w-fit flex items-center justify-center border-0"
                             />
                         </div>
                         <div className="relative z-10">
-                            <Image src={glassknot} alt="glass_thumnail" width={264} height={226} className="w-[200px] md:w-[264px] h-[184px] md:h-[226px]" />
+                            <Image src={glassknot} alt="glass_thumnail" width={264} height={226} className="w-50 md:w-66 h-46 md:h-56.5" />
                         </div>
                     </div>
                 </div>

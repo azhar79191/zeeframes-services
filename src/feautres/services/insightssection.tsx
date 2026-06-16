@@ -1,4 +1,3 @@
-import { ArrowButton } from "@/src/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
 import insight1 from "../../assets/images/img1.webp";
@@ -29,7 +28,7 @@ const InsightsSection = () => {
                             right={
                                 <Button
                                     text="Explore More"
-                                    className="group bg-[#000] hover:bg-[#FFF] border-0 hover:border hover:border-[#000] w-full md:w-fit flex items-center justify-center"
+                                    className="group bg-black hover:bg-[#FFF] border-0 hover:border hover:border-black w-full md:w-fit flex items-center justify-center"
                                     textClassName="text-[#FFF] group-hover:text-[#000] text-base font-medium"
                                     iconClassName="text-[#FFF] group-hover:text-[#000]"
                                 />
@@ -40,7 +39,7 @@ const InsightsSection = () => {
                             {insightsData.map((insight) => (
                                 <article key={insight.id} className="group">
                                     <Link href={`/insights/${insight.slug}`} className="block">
-                                        <div className="relative w-full h-[227px] rounded-t-[12px] overflow-hidden">
+                                        <div className="relative w-full h-56.75 rounded-t-xl overflow-hidden">
                                             <Image src={imageMap[insight.imageKey]} alt={insight.title} fill className="object-cover" />
                                         </div>
                                         <div className="p-6 bg-[#FFF] hover:bg-[#F4F2E8] flex flex-col gap-5 border border-t-0 rounded-b-[14px] border-[#E4E4E7]">
@@ -48,7 +47,7 @@ const InsightsSection = () => {
                                                 <h3 className="text-[#0B0B0B] text-xl font-tight font-medium md:font-semibold leading-7.5">{insight.title}</h3>
                                                 <p className="text-[#3F3F46] text-sm md:text-base line-clamp-2">{insight.description}</p>
                                             </div>
-                                            <div className="flex items-center gap-2 text-[#71717A] text-sm text-[#52525B]">
+                                            <div className="flex items-center gap-2  text-sm text-[#52525B]">
                                                 <time dateTime={insight.date}>{insight.readTime}</time>
                                                 <span>•</span>
                                                 <time dateTime={insight.date}>{insight.date}</time>

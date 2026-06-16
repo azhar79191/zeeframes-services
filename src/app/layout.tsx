@@ -18,6 +18,11 @@ const interTight = Inter_Tight({
 export const metadata: Metadata = {
   title: "Zeeframes || Design & Services",
   description: "A design Agency Zeeframes and the services page",
+  icons: {
+    icon: "/vite.svg",
+    shortcut: "/vite.svg",
+    apple: "/vite.svg",
+  },
 };
 
 export default function RootLayout({

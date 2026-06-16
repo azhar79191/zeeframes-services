@@ -48,7 +48,7 @@ const StackSection = () => {
                                         }`}
                                     >
                                         {activeTab === tab.id && (
-                                            <span className="absolute left-0 top-2.75 w-[3px] h-[21px] bg-[#F3FE00]" />
+                                            <span className="absolute left-0 top-2.75 w-0.75 h-5.25 bg-[#F3FE00]" />
                                         )}
                                         {tab.name}
                                     </button>
@@ -70,7 +70,7 @@ const StackSection = () => {
                                         return (
                                             <div
                                                 key={tool.id}
-                                                className={`bg-[#FFF] hover:bg-[#F4F2E8] px-6 py-4.5 md:py-12 flex flex-col items-center gap-3 md:justify-between h-full md:h-[194px] w-full md:w-[262px] border border-[#F1EFE6]
+                                                className={`bg-[#FFF] hover:bg-[#F4F2E8] px-6 py-4.5 md:py-12 flex flex-col items-center gap-3 md:justify-between h-full md:h-48.5 w-full md:w-65.5 border border-[#F1EFE6]
                                                 ${index === 0 ? "rounded-tl-[14px]" : ""}
                                                 ${index === 1 ? "rounded-tr-[14px] md:rounded-tr-none" : ""}
                                                 ${index === 3 ? "md:rounded-tr-[14px]" : ""}

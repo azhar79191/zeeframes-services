@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { z } from "zod";
 import FormInput from "@/src/components/forminput";
-import Button from "@/src/components/button";
 import { ClutchIcon, QuoteIcon, NavLeft, NavRightIcon } from "@/src/assets/icons";
 import di from "@/src/assets/images/di.webp";
 import contactData from "@/src/data/contact.json";
@@ -81,7 +80,7 @@ const ContactSection = () => {
                 <div className="py-6 md:py-15">
                     <div className="flex flex-col md:flex-row">
                         {/* Testimonials */}
-                        <div className="p-6 md:px-10 md:py-15 w-full md:max-w-[542px] h-auto flex flex-col justify-between bg-[#FFF] rounded-b-[14px] md:rounded-b-none md:rounded-l-[14px] order-2 md:order-1">
+                        <div className="p-6 md:px-10 md:py-15 w-full md:max-w-135.5 h-auto flex flex-col justify-between bg-[#FFF] rounded-b-[14px] md:rounded-b-none md:rounded-l-[14px] order-2 md:order-1">
                             <div className="space-y-6 md:space-y-15">
                                 <p className="text-[#27272A] text-xl font-tight md:text-2xl font-semibold leading-7.5 md:leading-8">What Our Customers Say</p>
                                 <div className="space-y-4">
@@ -101,8 +100,8 @@ const ContactSection = () => {
                                             style={{ width: "auto", height: "auto" }}
                                         />
                                         <div className="space-y-1">
-                                            <p className="text-[#000] text-sm md:text-base font-semibold md:font-medium">{active.author}</p>
-                                            <p className="text-[#000] text-xs md:text-sm">{active.role}</p>
+                                            <p className="text-black text-sm md:text-base font-semibold md:font-medium">{active.author}</p>
+                                            <p className="text-black text-xs md:text-sm">{active.role}</p>
                                         </div>
                                     </div>
                                     <div className="shrink-0"><ClutchIcon /></div>
@@ -111,14 +110,14 @@ const ContactSection = () => {
                                     <div className="flex items-center gap-5 md:gap-3">
                                         <button
                                             onClick={() => setCurrentTestimonial((prev) => (prev - 1 + contactData.testimonials.length) % contactData.testimonials.length)}
-                                            className="p-3.5 rounded-full cursor-pointer hover:bg-[#000] border border-[#2D2D2D] hover:border-[#A1A1AA] flex items-center justify-center transition-colors"
+                                            className="p-3.5 rounded-full cursor-pointer hover:bg-black border border-[#2D2D2D] hover:border-[#A1A1AA] flex items-center justify-center transition-colors"
                                             aria-label="Previous testimonial"
                                         >
                                             <NavLeft />
                                         </button>
                                         <button
                                             onClick={() => setCurrentTestimonial((prev) => (prev + 1) % contactData.testimonials.length)}
-                                            className="p-3.5 rounded-full cursor-pointer hover:bg-[#000] border border-[#2D2D2D] hover:border-[#A1A1AA] flex items-center justify-center transition-colors"
+                                            className="p-3.5 rounded-full cursor-pointer hover:bg-black border border-[#2D2D2D] hover:border-[#A1A1AA] flex items-center justify-center transition-colors"
                                             aria-label="Next testimonial"
                                         >
                                             <NavRightIcon />
@@ -139,11 +138,11 @@ const ContactSection = () => {
                         </div>
 
                         {/* Contact Form */}
-                        <div className="bg-[#000] rounded-t-[14px] md:rounded-t-none md:rounded-r-[14px] p-6 md:p-15 w-full  h-auto  flex flex-col order-1 md:order-2">
+                        <div className="bg-black rounded-t-[14px] md:rounded-t-none md:rounded-r-[14px] p-6 md:p-15 w-full  h-auto  flex flex-col order-1 md:order-2">
                             <form onSubmit={handleSubmit} className="flex flex-col h-full">
                                 <div className="space-y-2 md:space-y-4">
                                     <p className="text-[#F3FE00] text-sm">Contact Us</p>
-                                    <h2 className="text-[#FFF] text-2xl font-tight pt-2 w-full md:max-w-[510px] md:pt-0 md:text-4xl font-semibold leading-8 md:leading-11 -tracking-[0.72px]">Lets work on what you care about!</h2>
+                                    <h2 className="text-[#FFF] text-2xl font-tight pt-2 w-full md:max-w-127.5 md:pt-0 md:text-4xl font-semibold leading-8 md:leading-11 tracking-[-0.72px]">Lets work on what you care about!</h2>
                                     <p className="text-[#D4D4D8] text-sm md:text-base font-medium pt-1">Got a project in mind? From a full UI/UX refresh to a brand-new digital experience, we're ready to help. Let's turn your vision into reality.</p>
                                 </div>
 

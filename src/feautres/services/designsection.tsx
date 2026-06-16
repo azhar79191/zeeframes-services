@@ -12,7 +12,7 @@ const DesignSection = () => {
             <div className="container">
                 <div className='flex flex-col md:flex-row items-center gap-6 md:justify-between py-6 md:py-12'>
                     <div>
-                        <h2 className="md:text-5xl text-4xl w-full md:w-[603px] font-tight  font-semibold text-white md:leading-15 leading-11">
+                        <h2 className="md:text-5xl text-4xl w-full md:w-150.75 font-tight  font-semibold text-white md:leading-15 leading-11">
                             Start your UI/UX  design project today
                         </h2>
 
@@ -27,20 +27,20 @@ const DesignSection = () => {
                             iconClassName='text-[#0B0B0B]'
                         />
                     </div>
-                    <div className="relative  max-w-[260px] md:max-w-[294px] h-[294px]">
+                    <div className="relative  max-w-65 md:max-w-73.5 h-73.5">
                         <Image
                             src={gif}
                             alt='gif'
                             width={294}
                             height={294}
-                            className='w-[294] md:w-[294px] h-[294px]'
+                            className='w-[294] md:w-73.5 h-73.5'
                         />
                         <Image
                             src={gif}
                             alt='gif'
                             width={103}
                             height={103}
-                            className='absolute top-0 right-3 w-[103px] h-[103px]'
+                            className='absolute top-0 right-3 w-25.75 h-25.75'
                         />
                     </div>
 

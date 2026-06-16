@@ -33,7 +33,7 @@ const HelpView = () => {
                             {helpData.cards.map((card, index) => (
                                 <div
                                     key={card.id}
-                                    className={`bg-[#0F0F0F] border border-[#373737] p-6 flex flex-col gap-10 md:justify-between hover:border-[rgba(255,255,255,0.16)] transition-colors h-auto md:h-[314px] relative overflow-hidden group w-full md:w-auto
+                                    className={`bg-[#0F0F0F] border border-[#373737] p-6 flex flex-col gap-10 md:justify-between hover:border-[rgba(255,255,255,0.16)] transition-colors h-auto md:h-78.5 relative overflow-hidden group w-full md:w-auto
                                     ${index === 0 ? "rounded-t-[14px] md:rounded-t-none md:rounded-l-[14px]" : ""}
                                     ${index === helpData.cards.length - 1 ? "rounded-b-[14px] md:rounded-b-none md:rounded-r-[14px]" : ""}
                                     ${index !== helpData.cards.length - 1 ? "border-b-0 md:border-b md:border-r-0" : ""}
@@ -51,7 +51,7 @@ const HelpView = () => {
 
                         <div className="py-6 md:py-15 px-4 md:px-8 flex flex-col md:flex-row rounded-[14px] gap-6 md:gap-12 bg-[#FFF]">
                             <div className="relative">
-                                <Image src={help} alt="help img" width={508} height={344} className="rounded-[10px] w-[326px] md:w-[508px] h-[270px] md:h-[344px] object-cover" />
+                                <Image src={help} alt="help img" width={508} height={344} className="rounded-[10px] w-81.5 md:w-127 h-67.5 md:h-86 object-cover" />
                                 <Image src={helptop} alt="top" width={508} height={309} className="absolute top-4 left-0 rounded-[10px]" />
                             </div>
                             <div className="space-y-3 md:space-y-4">
@@ -70,7 +70,7 @@ const HelpView = () => {
                                     text="Request a Free UX Review"
                                     textClassName="text-white transition-colors duration-300 group-hover:text-black"
                                     iconClassName="text-white transition-colors duration-300 group-hover:text-black"
-                                    className="group w-full md:w-fit flex items-center justify-center mt-2 w-fit border border-transparent bg-black hover:bg-white hover:border-black transition-all duration-300"
+                                    className="group w-full md:w-fit flex items-center justify-center mt-2 border border-transparent bg-black hover:bg-white hover:border-black transition-all duration-300"
                                 />
                             </div>
                         </div>

@@ -58,7 +58,7 @@ const Header = () => {
                             alt="logo"
                             width={130}
                             height={22.5}
-                            className="w-[115px] md:w-[130px]"
+                            className="w-28.75 md:w-32.5"
                         />
                     </Link>
                     {/* Desktop Navigation */}

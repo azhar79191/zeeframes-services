@@ -1,4 +1,4 @@
-import { FundedIcon, DashboardIcon, MobileIcon, EcomIcon, BagIcon, SystemIcon, AuditIcon, PerformanceIcon, StartegyIcon, ArrowButton } from "@/src/assets/icons";
+import { FundedIcon, EcomIcon, BagIcon, AuditIcon, PerformanceIcon, StartegyIcon, ArrowButton } from "@/src/assets/icons";
 import Link from "next/link";
 import useCaseData from "@/src/data/usecases.json";
 import SectionHeading from "@/src/components/SectionHeading";

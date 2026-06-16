@@ -82,12 +82,12 @@ const Footer = () => {
                             alt="logo"
                             width={1240}
                             height={180}
-                            className="w-[327px] h-[47px] md:w-[1240px] md:h-[180px]"
+                            className="w-81.75 h-11.75 md:w-310 md:h-45"
                         />
                     </Link>
                     <div className="flex flex-col md:flex-row gap-8 md:gap-25">
                         <div className="flex flex-col gap-8">
-                            <p className="text-[#D5D5D5] text-lg leading-6.75 w-full md:w-[393px]">We transform ideas into user-centered digital experiences for businesses worldwide, from Fortune 500s to startups, using Figma, Webflow, and no-code solutions.</p>
+                            <p className="text-[#D5D5D5] text-lg leading-6.75 w-full md:w-98.25">We transform ideas into user-centered digital experiences for businesses worldwide, from Fortune 500s to startups, using Figma, Webflow, and no-code solutions.</p>
                             <ul className="hidden md:flex items-center gap-5">
                                 {partener.map((item, index) => (
                                     <li key={index}>
@@ -108,7 +108,7 @@ const Footer = () => {
                         {/* Three Column Grid for Company, Services, and Industries */}
                         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 w-full">
                             {navigation.map((section) => (
-                                <div key={section.id} className="flex flex-col gap-5 w-full md:w-[216px]">
+                                <div key={section.id} className="flex flex-col gap-5 w-full md:w-54">
                                     <h3 className="text-[#FFFFFF] text-base leading-5 font-semibold">{section.title}</h3>
                                     <ul className="flex flex-col gap-3.5">
                                         {section.links.map((link, index) => (

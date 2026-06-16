@@ -1,4 +1,4 @@
-import { ArrowButton, ArrowLeft, HomeIcon } from "@/src/assets/icons";
+import { ArrowLeft, HomeIcon } from "@/src/assets/icons";
 import Image from "next/image";
 import Link from "next/link";
 import logo1 from "../../assets/images/iso.webp";
@@ -43,7 +43,7 @@ const HeroSection = () => {
                             <div className="flex flex-col gap-6 md:gap-8">
                                 <div className="flex flex-col gap-2">
                                     <h1 className="text-4xl md:text-5xl font-tight leading-11 md:leading-15 font-semibold text-[#FFF]">UI UX Design Agency</h1>
-                                    <p className="w-full md:w-[623px] text-[#D4D4D8] text-sm md:text-base">ZeeFrames is a UI/UX design agency crafting intuitive, high-converting digital products with research-driven UX, polished UI, and AI-powered speed.</p>
+                                    <p className="w-full md:w-155.75 text-[#D4D4D8] text-sm md:text-base">ZeeFrames is a UI/UX design agency crafting intuitive, high-converting digital products with research-driven UX, polished UI, and AI-powered speed.</p>
                                 </div>
                                 <div className="flex flex-col gap-6">
                                     <p className="text-xs md:text-sm font-medium text-[#FFF]">TRUSTED. CERTIFIED. PROVEN.</p>
@@ -70,10 +70,10 @@ const HeroSection = () => {
                                     alt="hero image"
                                     width={163}
                                     height={168}
-                                    className="rounded-sm w-[326px] md:w-[163px] h-[160px] md:h-[168px]"
+                                    className="rounded-sm w-81.75 md:w-40.75 h-40 md:h-42"
                                 />
                                 <div className="flex flex-col gap-6">
-                                    <div className="flex flex-col gap-2 w-full md:w-[223px]">
+                                    <div className="flex flex-col gap-2 w-full md:w-55.75">
                                         <p className="text-base md:text-lg font-medium leading-6 md:leading-7 text-[#FFF]">Ready to build a product users love?</p>
                                         <p className="text-sm text-[#D4D4D8]">Book a free 30-minute discovery call with a senior UI UX designer.</p>
                                     </div>

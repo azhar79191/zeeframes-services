@@ -1,5 +1,4 @@
-import { AgenciesIcon, ArrowButton, BrandIcon, DashboardIcon, DesignIcon, EnterpriseIcon, FLowIcon, MobileIcon, PhoneCall, Startup, PrototypeIcon, SystemIcon } from "@/src/assets/icons";
-import Button from "@/src/components/button";
+import {  ArrowButton, BrandIcon, DashboardIcon, DesignIcon, FLowIcon, MobileIcon, PhoneCall, Startup, PrototypeIcon, SystemIcon } from "@/src/assets/icons";
 import Link from "next/link";
 import serviceData from "@/src/data/services.json";
 import SectionHeading from "@/src/components/SectionHeading";
@@ -34,7 +33,7 @@ const ServicesSection = () => {
                                 card.isSpecial ? (
                                     <div
                                         key={card.id}
-                                        className="bg-[#FFF] hover:bg-[#F3FE00] border border-[#E4E4E7] hover:border-[#373737] p-5 md:p-6 flex flex-col gap-8 md:justify-between h-full md:h-[253px] rounded-b-[14px] md:rounded-b-none md:rounded-br-[14px] group transition-all"
+                                        className="bg-[#FFF] hover:bg-[#F3FE00] border border-[#E4E4E7] hover:border-[#373737] p-5 md:p-6 flex flex-col gap-8 md:justify-between h-full md:h-63.25 rounded-b-[14px] md:rounded-b-none md:rounded-br-[14px] group transition-all"
                                     >
                                         <div className="text-4xl text-[#0B0B0B] group-hover:text-[#FFF] transition-colors">
                                             <PhoneCall />
@@ -59,7 +58,7 @@ const ServicesSection = () => {
                                 ) : (
                                     <div
                                         key={card.id}
-                                        className={`bg-[#0F0F0F] border border-[#373737] p-5 md:p-6 flex flex-col gap-8 md:justify-between hover:border-[rgba(255,255,255,0.16)] transition-colors h-auto md:h-[253px] relative overflow-hidden group
+                                        className={`bg-[#0F0F0F] border border-[#373737] p-5 md:p-6 flex flex-col gap-8 md:justify-between hover:border-[rgba(255,255,255,0.16)] transition-colors h-auto md:h-63.25 relative overflow-hidden group
                                             ${index === 0 ? "rounded-t-[14px] md:rounded-t-none md:rounded-tl-[14px]" : ""}
                                             ${index === 2 ? "md:rounded-tr-[14px]" : ""}
                                             ${index === 6 ? "md:rounded-bl-[14px]" : ""}
