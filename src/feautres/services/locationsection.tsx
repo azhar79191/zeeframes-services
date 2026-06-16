@@ -16,7 +16,7 @@ const LocationSection = () => {
                 <div className="grid grid-cols-1  md:grid-cols-3 gap-4">
                     {locationData.map((location, index) => (
                         <div key={location.id} className={`flex items-start py-3 md:p-5 ${index === 2 ? "gap-5" : "gap-3"}`}>
-                            <div className="flex-shrink-0 w-25 h-25 flex items-center justify-center">
+                            <div className="shrink-0 w-25 h-25 flex items-center justify-center">
                                 {iconMap[location.iconKey]}
                             </div>
                             <div className="flex flex-col gap-1.5">

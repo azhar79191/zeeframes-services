@@ -65,7 +65,7 @@ const ProcessSection = () => {
                                             <ul className="space-y-2">
                                                 {card.points?.map((point, idx) => (
                                                     <li key={idx} className="flex items-start gap-2">
-                                                        <span className="flex-shrink-0 mt-0.5"><StarIcon /></span>
+                                                        <span className="shrink-0 mt-0.5"><StarIcon /></span>
                                                         <span className="text-[#52525B] text-sm leading-5">{point}</span>
                                                     </li>
                                                 ))}

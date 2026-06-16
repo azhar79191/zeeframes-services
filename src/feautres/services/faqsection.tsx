@@ -37,7 +37,7 @@ const FaqSection = () => {
                                         <h3 className="text-[#27272A] font-tight text-base md:text-lg font-semibold leading-6 md:leading-7">
                                             {faq.question}
                                         </h3>
-                                        <span className="text-2xl text-[#27272A] flex-shrink-0 ml-2 md:ml-4">
+                                        <span className="text-2xl text-[#27272A] shrink-0 ml-2 md:ml-4">
                                             {openId === faq.id ? <MinusIcon /> : <PlusIcon />}
                                         </span>
                                     </button>
