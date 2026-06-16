@@ -39,7 +39,7 @@ const HeroSection = () => {
                             <ArrowLeft />
                             <span className="text-sm font-medium text-[#FFF]">UI/UX Design</span>
                         </div>
-                        <div className="flex flex-col md:flex-row items-center justify-between">
+                        <div className="flex flex-col md:flex-row items-end justify-between">
                             <div className="flex flex-col gap-6 md:gap-8">
                                 <div className="flex flex-col gap-2">
                                     <h1 className="text-4xl md:text-5xl font-tight leading-11 md:leading-15 font-semibold text-[#FFF]">UI UX Design Agency</h1>
@@ -64,7 +64,7 @@ const HeroSection = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border border-[rgba(255,255,255,0.12)] bg-[rgba(56,56,56,0.35)] backdrop-blur-[6px] rounded-2xl mt-8 md:mt-13.5">
+                            <div className="p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border border-[rgba(255,255,255,0.12)] bg-[rgba(56,56,56,0.35)] backdrop-blur-[6px] rounded-2xl mt-8 md:mt-0">
                                 <Image
                                     src={heroImg}
                                     alt="hero image"
