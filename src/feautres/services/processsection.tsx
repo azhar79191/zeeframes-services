@@ -35,7 +35,7 @@ const ProcessSection = () => {
                                             alt="process"
                                             width={338}
                                             height={193}
-                                            className="w-[358px] md:w-[338px] h-[201px] md:[193px]"
+                                            className="w-[358px] md:w-[338px] h-auto"
                                         />
                                         <div className="flex flex-col gap-6 md:gap-8 p-5">
                                             <div className="flex flex-col gap-2.5">
@@ -54,14 +54,14 @@ const ProcessSection = () => {
                                 ) : (
                                     <div
                                         key={card.id}
-                                        className={`bg-[#FFF] hover:bg-[#F4F2E8] border border-[#CDCDCD] p-6 flex flex-col gap-8 md:justify-between
+                                        className={`bg-[#FFF] hover:bg-[#F4F2E8] border border-[#CDCDCD] p-6 flex flex-col gap-8 items-start md:gap-27 
                                         ${index === 0 ? "rounded-t-[14px] md:rounded-t-none md:rounded-l-[14px]" : ""}
                                         ${index !== 2 ? "border-b-0 md:border-b md:border-r-0" : "md:border-r-0"}
                                         `}
                                     >
                                         <div className="text-4xl">{iconMap[card.iconKey!]}</div>
                                         <div className="flex flex-col gap-3 md:gap-6">
-                                            <h3 className="text-[#27272A] font-tight text-base md:text-xl font-semibold leading-6 md:leading-7">{card.title}</h3>
+                                            <h3 className="text-[#27272A] font-tight text-base md:text-lg font-semibold leading-6 md:leading-7">{card.title}</h3>
                                             <ul className="space-y-2">
                                                 {card.points?.map((point, idx) => (
                                                     <li key={idx} className="flex items-start gap-2">

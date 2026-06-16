@@ -11,6 +11,12 @@ import contactData from "@/src/data/contact.json";
 import { StaticImageData } from "next/image";
 
 const avatarMap: Record<string, StaticImageData> = { di };
+ const Formfields= [
+        { "name": "fullName", "label": "Full Name",          "type": "text",  "required": true,  "col": 1 },
+        { "name": "email",    "label": "Email Address",      "type": "email", "required": true,  "col": 2 },
+        { "name": "phone",    "label": "Phone Number",       "type": "tel",   "required": true,  "col": 1 },
+        { "name": "country",  "label": "Country (Optional)", "type": "text",  "required": false, "col": 2 }
+    ]
 
 const contactSchema = z.object({
     fullName: z.string().min(2, "Full name must be at least 2 characters"),
@@ -73,9 +79,9 @@ const ContactSection = () => {
         <section className="bg-[#FAF9F4]">
             <div className="container">
                 <div className="py-6 md:py-15">
-                    <div className="flex flex-col md:flex-row items-center">
+                    <div className="flex flex-col md:flex-row">
                         {/* Testimonials */}
-                        <div className="p-6 md:px-10 md:py-15 w-full md:max-w-[542px] h-[550px] md:h-[780px] flex flex-col justify-between bg-[#FFF] rounded-b-[14px] md:rounded-b-none md:rounded-l-[14px] order-2 md:order-1">
+                        <div className="p-6 md:px-10 md:py-15 w-full md:max-w-[542px] h-auto flex flex-col justify-between bg-[#FFF] rounded-b-[14px] md:rounded-b-none md:rounded-l-[14px] order-2 md:order-1">
                             <div className="space-y-6 md:space-y-15">
                                 <p className="text-[#27272A] text-xl font-tight md:text-2xl font-semibold leading-7.5 md:leading-8">What Our Customers Say</p>
                                 <div className="space-y-4">
@@ -99,7 +105,7 @@ const ContactSection = () => {
                                             <p className="text-[#000] text-xs md:text-sm">{active.role}</p>
                                         </div>
                                     </div>
-                                    <div className="flex-shrink-0"><ClutchIcon /></div>
+                                    <div className="shrink-0"><ClutchIcon /></div>
                                 </div>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-5 md:gap-3">
@@ -133,7 +139,7 @@ const ContactSection = () => {
                         </div>
 
                         {/* Contact Form */}
-                        <div className="bg-[#000] rounded-t-[14px] md:rounded-t-none md:rounded-r-[14px] p-6 md:p-15 w-full  h-auto md:h-[780px] flex flex-col order-1 md:order-2">
+                        <div className="bg-[#000] rounded-t-[14px] md:rounded-t-none md:rounded-r-[14px] p-6 md:p-15 w-full  h-auto  flex flex-col order-1 md:order-2">
                             <form onSubmit={handleSubmit} className="flex flex-col h-full">
                                 <div className="space-y-2 md:space-y-4">
                                     <p className="text-[#F3FE00] text-sm">Contact Us</p>
@@ -142,7 +148,7 @@ const ContactSection = () => {
                                 </div>
 
                                 <div className="grid grid-cols-2 gap-12 mt-6 md:mt-15">
-                                    {contactData.formFields.map((field) => (
+                                    {Formfields.map((field) => (
                                         <div key={field.name}>
                                             <FormInput
                                                 label={field.label}
@@ -172,7 +178,7 @@ const ContactSection = () => {
                                     <button
                                         type="submit"
                                         disabled={isSubmitting}
-                                        className="w-full bg-transparent border-[1.5px] border-[#F3FE00] hover:border-0 cursor-pointer text-[#FFF] rounded-full py-3.5 px-5.5 text-base font-semibold hover:bg-gradient-to-r hover:from-[#F3FE00] hover:to-[#33DE1D] hover:text-[#0B0B0B] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                        className="w-full mt-0 md:mt-17 bg-transparent border-[1.5px] border-[#F3FE00] hover:border-0 cursor-pointer text-[#FFF] rounded-full py-3.5 px-5.5 text-base font-semibold hover:bg-gradient-to-r hover:from-[#F3FE00] hover:to-[#33DE1D] hover:text-[#0B0B0B] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                                     >
                                         {isSubmitting ? "Submitting..." : "Submit Inquiry"}
                                     </button>

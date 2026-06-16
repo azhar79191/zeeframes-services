@@ -21,11 +21,5 @@
             "role": "Project Manager, E Salaax",
             "avatarKey": "di"
         }
-    ],
-    "formFields": [
-        { "name": "fullName", "label": "Full Name",          "type": "text",  "required": true,  "col": 1 },
-        { "name": "email",    "label": "Email Address",      "type": "email", "required": true,  "col": 2 },
-        { "name": "phone",    "label": "Phone Number",       "type": "tel",   "required": true,  "col": 1 },
-        { "name": "country",  "label": "Country (Optional)", "type": "text",  "required": false, "col": 2 }
     ]
 }

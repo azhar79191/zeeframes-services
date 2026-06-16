@@ -30,9 +30,10 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${interTight.variable} antialiased`}
     >
-      <body className={`${inter.className}`}>
+      {/* <body className={`${inter.className}`}> */}
+      <body>
         <Header />
-        <main className="flex-grow">
+        <main>
           {children}
         </main>
         <Footer />

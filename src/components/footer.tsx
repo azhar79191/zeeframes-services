@@ -141,7 +141,7 @@ const Footer = () => {
                     <div className="flex flex-col md:flex-row items-center gap-5 md:justify-between">
                         <p className="text-sm text-[#8F8F8F] hidden md:block">© 2026 Copyright ZeeFrames Private Limited. All rights reserved.</p>
                         <p className="text-sm text-[#8F8F8F] block md:hidden">© ZeeFrames (Private) Limited. All Rights Reserved.</p>
-                        <p className="text-sm text-[#8F8F8F]">Privacy Policy</p>
+                        <Link href="/privacy-policy" aria-label="View privacy policy" className="text-sm text-[#8F8F8F]">Privacy Policy</Link>
                         <ul className="w-full md:w-fit flex justify-between md:gap-4 items-center">
                             {socialLinks.map((item, index) => (
                                 <li key={index} className="p-2">
