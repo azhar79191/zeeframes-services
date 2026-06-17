@@ -14,7 +14,7 @@ export const ChecklistAnim = () => (
 export const BarsChartAnim = () => (
     <div
         aria-hidden="true"
-        className="absolute inset-0 flex items-end justify-center gap-3.5 pb-29 -translate-x-5 pointer-events-none z-0"
+        className="absolute inset-0 flex items-end justify-center gap-3.5 pb-24 -translate-x-5 pointer-events-none z-0"
     >
         {[
             { h: 22, solid: false },
